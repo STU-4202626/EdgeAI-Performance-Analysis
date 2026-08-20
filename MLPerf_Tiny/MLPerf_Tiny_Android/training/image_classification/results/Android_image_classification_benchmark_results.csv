@@ -1,0 +1,5 @@
+Run,Device,Workload,Dataset,Model,Samples Evaluated,Repetitions,Target Measurement Time (s),Total Measurement Time (s),Accuracy,Precision,Recall,F1-Score,ROC-AUC,Inference Time (s),Throughput,Carbon Emissions (kgCO2e),MLPerf Target,Benchmark Status
+Warm-up,Samsung Galaxy S26 Ultra,Image Classification,CIFAR-10,pretrainedResnet_quant.tflite,200,2367,30.0,30.013,0.87,0.8728,0.87,0.8686,0.988,0.013,15773.31,3.899e-10,0.85,PASSED
+Run 1,Samsung Galaxy S26 Ultra,Image Classification,CIFAR-10,pretrainedResnet_quant.tflite,200,2083,30.0,30.007,0.87,0.8728,0.87,0.8686,0.988,0.014,13883.22,4.430e-10,0.85,PASSED
+Run 2,Samsung Galaxy S26 Ultra,Image Classification,CIFAR-10,pretrainedResnet_quant.tflite,200,2057,30.0,30.015,0.87,0.8728,0.87,0.8686,0.988,0.015,13706.48,4.487e-10,0.85,PASSED
+Run 3,Samsung Galaxy S26 Ultra,Image Classification,CIFAR-10,pretrainedResnet_quant.tflite,200,2240,30.0,30.011,0.87,0.8728,0.87,0.8686,0.988,0.013,14927.71,4.120e-10,0.85,PASSED

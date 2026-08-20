@@ -1,0 +1,5 @@
+Run,Device,Workload,Dataset,Model,Samples Evaluated,Repetitions,Target Measurement Time (s),Total Measurement Time (s),Accuracy,Precision,Recall,F1-Score,ROC-AUC,Inference Time (s),Throughput,Carbon Emissions (kgCO2e),MLPerf Target,Benchmark Status
+Warm-up,NVIDIA GeForce RTX 4090,Keyword Spotting,Speech Commands v0.02,kws_ref_model,1000,50,30.0,30.19,0.919,0.936,0.919,0.9232,0.9953,0.604,1656.16,8.865e-06,0.9,PASSED
+Run 1,NVIDIA GeForce RTX 4090,Keyword Spotting,Speech Commands v0.02,kws_ref_model,1000,52,30.0,30.348,0.919,0.936,0.919,0.9232,0.9953,0.584,1713.48,8.161e-06,0.9,PASSED
+Run 2,NVIDIA GeForce RTX 4090,Keyword Spotting,Speech Commands v0.02,kws_ref_model,1000,52,30.0,30.413,0.919,0.936,0.919,0.9232,0.9953,0.585,1709.81,8.178e-06,0.9,PASSED
+Run 3,NVIDIA GeForce RTX 4090,Keyword Spotting,Speech Commands v0.02,kws_ref_model,1000,50,30.0,30.008,0.919,0.936,0.919,0.9232,0.9953,0.6,1666.25,8.458e-06,0.9,PASSED

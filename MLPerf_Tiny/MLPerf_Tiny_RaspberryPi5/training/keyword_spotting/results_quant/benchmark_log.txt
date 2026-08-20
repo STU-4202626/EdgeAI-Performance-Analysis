@@ -1,0 +1,125 @@
+Dataset Information
+---------------------
+Dataset: Speech Commands v0.02
+Classes: ['Down', 'Go', 'Left', 'No', 'Off', 'On', 'Right', 'Stop', 'Up', 'Yes', 'Silence', 'Unknown']
+Number of Classes: 12
+Samples Evaluated: 1000
+---------------------
+
+
+Input Quantization: (0.5847029089927673, 83)
+Output Quantization: (0.00390625, -128)
+
+Input Tensor: [ 1 49 10  1] <class 'numpy.int8'>
+Output Tensor: [ 1 12] <class 'numpy.int8'>
+TensorFlow Lite model loaded successfully.
+
+
+================ WARM-UP ================
+
+Benchmark Repetitions:    89
+Minimum Measurement Time: 30 seconds
+Total Measurement Time:   30.208 seconds
+Inference Time:           0.339 seconds
+Throughput:               2946.24 samples/second
+Carbon Emissions:         1.830e-07 kgCO2e
+Status:              Excluded from Average
+
+================ RUN 1 ================
+
+Benchmark Repetitions:    89
+Minimum Measurement Time: 30 seconds
+Total Measurement Time:   30.222 seconds
+Inference Time:           0.340 seconds
+Throughput:               2944.87 samples/second
+Carbon Emissions:         1.804e-07 kgCO2e
+Status:              Included in Average
+
+================ RUN 2 ================
+
+Benchmark Repetitions:    89
+Minimum Measurement Time: 30 seconds
+Total Measurement Time:   30.204 seconds
+Inference Time:           0.339 seconds
+Throughput:               2946.66 samples/second
+Carbon Emissions:         1.829e-07 kgCO2e
+Status:              Included in Average
+
+================ RUN 3 ================
+
+Benchmark Repetitions:    89
+Minimum Measurement Time: 30 seconds
+Total Measurement Time:   30.213 seconds
+Inference Time:           0.339 seconds
+Throughput:               2945.71 samples/second
+Carbon Emissions:         1.803e-07 kgCO2e
+Status:              Included in Average
+
+---------------------
+Performance on the Keyword Spotting Benchmark
+Accuracy: 0.9120
+MLPerf Target:       90%
+Benchmark Status:    PASSED
+---------------------
+Classification Report
+              precision    recall  f1-score   support
+
+        Down       0.99      0.87      0.92        92
+          Go       0.87      0.86      0.86        92
+        Left       0.94      0.93      0.93        81
+          No       0.93      0.87      0.90        89
+         Off       0.94      0.93      0.94        70
+          On       0.97      0.88      0.93        84
+       Right       1.00      0.89      0.94        75
+        Stop       1.00      0.95      0.97        78
+          Up       0.96      0.89      0.93        84
+         Yes       0.99      0.92      0.95        89
+     Silence       1.00      0.99      0.99        80
+     Unknown       0.61      0.99      0.76        86
+
+    accuracy                           0.91      1000
+   macro avg       0.93      0.91      0.92      1000
+weighted avg       0.93      0.91      0.92      1000
+
+---------------------
+Emission Report
+Carbon Emissions:    1.803e-07 kgCO2e
+---------------------
+Confusion matrix saved to:
+results_quant/confusion_matrix.png
+---------------------
+ROC curve saved to:
+results_quant/roc_curve.png
+---------------------
+Prediction results saved to:
+results_quant/keyword_spotting_predictions.csv
+---------------------
+
+Benchmark results saved to:
+results_quant/keyword_spotting_benchmark_results.csv
+---------------------
+
+==========================================
+Benchmark completed successfully.
+==========================================
+Device: Raspberry Pi 5
+Workload: Keyword Spotting
+
+Warm-up Run: Completed
+Measured Runs: 3
+
+Raw Benchmark Data:
+keyword_spotting_benchmark_results.csv
+
+Prediction Results:
+keyword_spotting_predictions.csv
+
+Confusion Matrix:
+confusion_matrix.png
+
+ROC Curve:
+roc_curve.png
+
+The warm-up execution is excluded from the average.
+Run compile_results.py to calculate the averaged benchmark results.
+==========================================

@@ -1,0 +1,21 @@
+Device,Model,Workload Category,Average Total Duration (s),Average Load Duration (s),Average Prompt Evaluation Count,Average Prompt Evaluation Duration (s),Average Prompt Evaluation Rate (tokens/s),Average Evaluation Count,Average Evaluation Duration (s),Average Evaluation Rate (tokens/s),Average Carbon Emissions (kgCO2e)
+AMD Ryzen 7 6800H,gemma3:1b,Knowledge Retrieval,8.900,0.423,44.00,0.054,813.22,365.00,8.411,43.40,2.707e-05
+AMD Ryzen 7 6800H,gemma3:1b,Summarisation,4.822,0.420,473.00,0.056,8512.20,189.00,4.335,43.61,1.717e-05
+AMD Ryzen 7 6800H,gemma3:1b,Logical Reasoning,8.331,0.420,81.00,0.053,1531.14,352.00,7.852,44.86,2.346e-05
+AMD Ryzen 7 6800H,gemma3:1b,Mathematical Reasoning,13.832,0.421,70.00,0.052,1336.75,597.00,13.348,44.94,3.570e-05
+AMD Ryzen 7 6800H,gemma3:1b,Code Generation,27.892,0.422,56.00,0.053,1062.61,1212.00,27.407,44.22,6.320e-05
+NVIDIA GeForce RTX 4090,gemma3:1b,Knowledge Retrieval,1.394,0.345,44.00,0.008,5883.31,371.33,1.033,359.32,1.973e-05
+NVIDIA GeForce RTX 4090,gemma3:1b,Summarisation,0.894,0.331,473.00,0.010,46207.76,195.00,0.547,356.27,1.168e-05
+NVIDIA GeForce RTX 4090,gemma3:1b,Logical Reasoning,1.140,0.355,81.00,0.007,10890.11,279.33,0.774,361.83,1.494e-05
+NVIDIA GeForce RTX 4090,gemma3:1b,Mathematical Reasoning,1.921,0.354,70.00,0.008,8862.29,562.00,1.549,364.12,2.817e-05
+NVIDIA GeForce RTX 4090,gemma3:1b,Code Generation,3.719,0.357,56.00,0.008,7250.37,1175.33,3.342,351.57,5.788e-05
+Raspberry Pi 5,gemma3:1b,Knowledge Retrieval,35.209,0.661,43.00,0.085,525.74,377.33,33.752,11.18,5.851e-05
+Raspberry Pi 5,gemma3:1b,Summarisation,32.166,0.654,472.00,15.747,29.97,168.00,15.461,10.87,3.885e-05
+Raspberry Pi 5,gemma3:1b,Logical Reasoning,34.356,0.665,80.00,0.073,1090.36,372.00,32.901,11.33,5.760e-05
+Raspberry Pi 5,gemma3:1b,Mathematical Reasoning,46.989,0.663,69.00,1.500,336.12,487.67,43.913,11.12,7.891e-05
+Raspberry Pi 5,gemma3:1b,Code Generation,105.642,0.668,55.00,1.785,30.82,1102.00,101.115,10.89,1.735e-04
+Samsung S26 Ultra,gemma3:1b,Knowledge Retrieval,9.883,0.527,44.00,0.079,564.85,385.00,9.271,42.14,3.051e-07
+Samsung S26 Ultra,gemma3:1b,Summarisation,5.059,0.553,473.00,0.073,6476.83,188.67,4.426,42.63,1.567e-07
+Samsung S26 Ultra,gemma3:1b,Logical Reasoning,7.545,0.527,81.00,0.078,1049.79,297.67,6.934,42.93,2.330e-07
+Samsung S26 Ultra,gemma3:1b,Mathematical Reasoning,14.663,0.604,70.00,0.077,908.68,489.33,13.972,35.48,4.519e-07
+Samsung S26 Ultra,gemma3:1b,Code Generation,49.638,0.688,56.00,0.120,475.91,1175.33,48.818,24.07,1.528e-06

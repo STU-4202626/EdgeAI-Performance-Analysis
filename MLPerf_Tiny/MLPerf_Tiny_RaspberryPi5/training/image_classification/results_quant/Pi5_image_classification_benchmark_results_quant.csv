@@ -1,0 +1,5 @@
+Run,Device,Workload,Dataset,Model,Samples Evaluated,Repetitions,Target Measurement Time (s),Total Measurement Time (s),Accuracy,Precision,Recall,F1-Score,ROC-AUC,Inference Time (s),Throughput,Carbon Emissions (kgCO2e),MLPerf Target,Benchmark Status
+Warm-up,Raspberry Pi 5,Image Classification,CIFAR-10,pretrainedResnet_quant.tflite,200,131,30.0,30.015,0.875,0.8771,0.875,0.8732,0.9877,0.229,872.9,1.217e-07,0.85,PASSED
+Run 1,Raspberry Pi 5,Image Classification,CIFAR-10,pretrainedResnet_quant.tflite,200,131,30.0,30.018,0.875,0.8771,0.875,0.8732,0.9877,0.229,872.81,1.216e-07,0.85,PASSED
+Run 2,Raspberry Pi 5,Image Classification,CIFAR-10,pretrainedResnet_quant.tflite,200,131,30.0,30.061,0.875,0.8771,0.875,0.8732,0.9877,0.229,871.57,1.218e-07,0.85,PASSED
+Run 3,Raspberry Pi 5,Image Classification,CIFAR-10,pretrainedResnet_quant.tflite,200,131,30.0,30.065,0.875,0.8771,0.875,0.8732,0.9877,0.23,871.45,1.232e-07,0.85,PASSED

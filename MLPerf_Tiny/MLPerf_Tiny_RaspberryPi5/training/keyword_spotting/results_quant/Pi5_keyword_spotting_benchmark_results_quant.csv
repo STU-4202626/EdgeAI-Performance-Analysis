@@ -1,0 +1,5 @@
+Run,Device,Workload,Dataset,Model,Samples Evaluated,Repetitions,Target Measurement Time (s),Total Measurement Time (s),Accuracy,Precision,Recall,F1-Score,ROC-AUC,Inference Time (s),Throughput,Carbon Emissions (kgCO2e),MLPerf Target,Benchmark Status
+Warm-up,Raspberry Pi 5,Keyword Spotting,Speech Commands v0.02,kws_ref_model.tflite,1000,89,30.0,30.208,0.912,0.9313,0.912,0.9167,0.9942,0.339,2946.24,1.830e-07,0.9,PASSED
+Run 1,Raspberry Pi 5,Keyword Spotting,Speech Commands v0.02,kws_ref_model.tflite,1000,89,30.0,30.222,0.912,0.9313,0.912,0.9167,0.9942,0.34,2944.87,1.804e-07,0.9,PASSED
+Run 2,Raspberry Pi 5,Keyword Spotting,Speech Commands v0.02,kws_ref_model.tflite,1000,89,30.0,30.204,0.912,0.9313,0.912,0.9167,0.9942,0.339,2946.66,1.829e-07,0.9,PASSED
+Run 3,Raspberry Pi 5,Keyword Spotting,Speech Commands v0.02,kws_ref_model.tflite,1000,89,30.0,30.213,0.912,0.9313,0.912,0.9167,0.9942,0.339,2945.71,1.803e-07,0.9,PASSED

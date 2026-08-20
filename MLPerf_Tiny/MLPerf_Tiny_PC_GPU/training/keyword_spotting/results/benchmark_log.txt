@@ -1,0 +1,123 @@
+Dataset Information
+---------------------
+Dataset: Speech Commands v0.02
+Classes: ['Down', 'Go', 'Left', 'No', 'Off', 'On', 'Right', 'Stop', 'Up', 'Yes', 'Silence', 'Unknown']
+Number of Classes: 12
+Samples Evaluated: 1000
+---------------------
+
+SavedModel loaded successfully.
+
+Input Tensor: (None, 49, 10, 1) <dtype: 'float32'>
+Output Tensor: (None, 12) <dtype: 'float32'>
+SavedModel loaded successfully.
+
+
+================ WARM-UP ================
+
+Benchmark Repetitions:    50
+Minimum Measurement Time: 30 seconds
+Total Measurement Time:   30.190 seconds
+Inference Time:           0.604 seconds
+Throughput:               1656.16 samples/second
+Carbon Emissions:         8.865e-06 kgCO2e
+Status:              Excluded from Average
+
+================ RUN 1 ================
+
+Benchmark Repetitions:    52
+Minimum Measurement Time: 30 seconds
+Total Measurement Time:   30.348 seconds
+Inference Time:           0.584 seconds
+Throughput:               1713.48 samples/second
+Carbon Emissions:         8.161e-06 kgCO2e
+Status:              Included in Average
+
+================ RUN 2 ================
+
+Benchmark Repetitions:    52
+Minimum Measurement Time: 30 seconds
+Total Measurement Time:   30.413 seconds
+Inference Time:           0.585 seconds
+Throughput:               1709.81 samples/second
+Carbon Emissions:         8.178e-06 kgCO2e
+Status:              Included in Average
+
+================ RUN 3 ================
+
+Benchmark Repetitions:    50
+Minimum Measurement Time: 30 seconds
+Total Measurement Time:   30.008 seconds
+Inference Time:           0.600 seconds
+Throughput:               1666.25 samples/second
+Carbon Emissions:         8.458e-06 kgCO2e
+Status:              Included in Average
+
+---------------------
+Performance on the Keyword Spotting Benchmark
+Accuracy: 0.9190
+MLPerf Target:       90%
+Benchmark Status:    PASSED
+---------------------
+Classification Report
+              precision    recall  f1-score   support
+
+        Down       0.96      0.87      0.91        92
+          Go       0.92      0.90      0.91        92
+        Left       0.99      0.91      0.95        81
+          No       0.95      0.91      0.93        89
+         Off       0.95      0.90      0.93        70
+          On       0.95      0.86      0.90        84
+       Right       1.00      0.91      0.95        75
+        Stop       0.99      0.96      0.97        78
+          Up       0.93      0.92      0.92        84
+         Yes       0.99      0.92      0.95        89
+     Silence       1.00      1.00      1.00        80
+     Unknown       0.62      0.98      0.76        86
+
+    accuracy                           0.92      1000
+   macro avg       0.94      0.92      0.92      1000
+weighted avg       0.94      0.92      0.92      1000
+
+---------------------
+Emission Report
+Carbon Emissions:     8.458e-06 kgCO2e
+---------------------
+Confusion matrix saved to:
+results/confusion_matrix.png
+---------------------
+ROC curve saved to:
+results/roc_curve.png
+---------------------
+Prediction results saved to:
+results/keyword_spotting_predictions.csv
+---------------------
+
+Benchmark results saved to:
+results/GPU_keyword_spotting_benchmark_results.csv
+---------------------
+
+==========================================
+Benchmark completed successfully.
+==========================================
+Device: NVIDIA GeForce RTX 4090
+Workload: Keyword Spotting
+
+Warm-up Run: Completed
+Measured Runs: 3
+
+Raw Benchmark Data:
+GPU_keyword_spotting_benchmark_results.csv
+
+Prediction Results:
+keyword_spotting_predictions.csv
+
+Confusion Matrix:
+confusion_matrix.png
+
+ROC Curve:
+roc_curve.png
+
+The warm-up execution is excluded from the average.
+Run compile_results.py to calculate the averaged benchmark results.
+==========================================

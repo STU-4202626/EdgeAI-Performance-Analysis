@@ -1,0 +1,49 @@
+# Python virtual environments
+venv/
+.venv/
+env/
+edgeai-env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Python build files
+build/
+dist/
+*.egg-info/
+
+# TensorFlow / ML caches
+.keras/
+.tensorflow/
+
+# Original/reference MLPerf Tiny copy
+Original_MlPerf_tiny/
+
+# MLPerf Tiny downloaded datasets
+vw_coco2014_96/
+vw_coco2014_96.tar.gz
+cifar-10-batches-py/
+cifar-10-python.tar.gz
+
+# LLM debugging files
+LLM/**/og_android/
+LLM/**/og_csv/
+LLM/**/og_gpu/
+LLM/**/og_pi/

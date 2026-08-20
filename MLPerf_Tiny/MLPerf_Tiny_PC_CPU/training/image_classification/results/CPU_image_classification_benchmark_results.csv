@@ -1,0 +1,5 @@
+Run,Device,Workload,Dataset,Model,Samples Evaluated,Repetitions,Target Measurement Time (s),Total Measurement Time (s),Accuracy,Precision,Recall,F1-Score,ROC-AUC,Inference Time (s),Throughput,Carbon Emissions (kgCO2e),MLPerf Target,Benchmark Status
+Warm-up,AMD Ryzen 7 6800H,Image Classification,CIFAR-10,pretrainedResnet.h5,200,3,30.0,30.457,0.87,0.871,0.87,0.8678,0.9891,10.152,19.7,1.646e-05,0.85,PASSED
+Run 1,AMD Ryzen 7 6800H,Image Classification,CIFAR-10,pretrainedResnet.h5,200,3,30.0,30.28,0.87,0.871,0.87,0.8678,0.9891,10.093,19.82,1.582e-05,0.85,PASSED
+Run 2,AMD Ryzen 7 6800H,Image Classification,CIFAR-10,pretrainedResnet.h5,200,3,30.0,30.405,0.87,0.871,0.87,0.8678,0.9891,10.135,19.73,1.625e-05,0.85,PASSED
+Run 3,AMD Ryzen 7 6800H,Image Classification,CIFAR-10,pretrainedResnet.h5,200,3,30.0,30.559,0.87,0.871,0.87,0.8678,0.9891,10.186,19.63,1.665e-05,0.85,PASSED

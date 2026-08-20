@@ -1,0 +1,4 @@
+Device,Workload,Dataset,Model,Samples Evaluated,Repetitions,Target Measurement Time (s),Total Measurement Time (s),Accuracy,Precision,Recall,F1-Score,ROC-AUC,Inference Time (s),Throughput,Carbon Emissions (kgCO2e),MLPerf Target,Benchmark Status
+AMD Ryzen 7 6800H,Image Classification,CIFAR-10,pretrainedResnet.h5,200,3.0,30.0,30.415,0.87,0.871,0.87,0.8678,0.9891,10.138,19.73,1.624e-05,0.85,PASSED
+AMD Ryzen 7 6800H,Keyword Spotting,Speech Commands v0.02,kws_ref_model,1000,19.33,30.0,30.668,0.919,0.936,0.919,0.9232,0.9953,1.587,630.12,2.673e-06,0.9,PASSED
+AMD Ryzen 7 6800H,Visual Wake Words,Visual Wake Words,vww_96.h5,1000,1.0,30.0,57.181,0.863,0.9353,0.78,0.8506,0.9437,57.181,17.49,8.702e-05,0.8,PASSED

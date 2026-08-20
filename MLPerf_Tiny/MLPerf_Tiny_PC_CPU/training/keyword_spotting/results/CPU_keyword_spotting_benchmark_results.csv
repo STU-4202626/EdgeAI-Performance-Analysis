@@ -1,0 +1,5 @@
+Run,Device,Workload,Dataset,Model,Samples Evaluated,Repetitions,Target Measurement Time (s),Total Measurement Time (s),Accuracy,Precision,Recall,F1-Score,ROC-AUC,Inference Time (s),Throughput,Carbon Emissions (kgCO2e),MLPerf Target,Benchmark Status
+Warm-up,AMD Ryzen 7 6800H,Keyword Spotting,Speech Commands v0.02,kws_ref_model,1000,20,30.0,31.416,0.919,0.936,0.919,0.9232,0.9953,1.571,636.61,2.653e-06,0.9,PASSED
+Run 1,AMD Ryzen 7 6800H,Keyword Spotting,Speech Commands v0.02,kws_ref_model,1000,20,30.0,31.105,0.919,0.936,0.919,0.9232,0.9953,1.555,642.98,2.544e-06,0.9,PASSED
+Run 2,AMD Ryzen 7 6800H,Keyword Spotting,Speech Commands v0.02,kws_ref_model,1000,19,30.0,30.696,0.919,0.936,0.919,0.9232,0.9953,1.616,618.97,2.789e-06,0.9,PASSED
+Run 3,AMD Ryzen 7 6800H,Keyword Spotting,Speech Commands v0.02,kws_ref_model,1000,19,30.0,30.203,0.919,0.936,0.919,0.9232,0.9953,1.59,629.09,2.685e-06,0.9,PASSED

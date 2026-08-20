@@ -1,0 +1,226 @@
+device_name,model_name,workload_category,prompt_text,model_response,warmup_metrics,verbose_metrics1,verbose_metrics2,verbose_metrics3,avg_metrics
+AMD Ryzen 7 6800H,gemma3:1b,Knowledge Retrieval,"
+Explain the main causes of climate change and discuss three strategies that governments can implement to reduce greenhouse gas emissions. Provide a structured response of approximately 250 words.
+","      Okay, here's a breakdown exploring the reasons for today’s climate challeng challenge and government policy solutions:   **Main Drivers – The Causes of Climate Change:**  Human activities are unequivocally responsible for most of recent climate c change changes. Primarily, greenhouse gases (GHG’s) trap heat in the atmosp atmosphere primarily from burning fossil fuel-based energy, deforestation i impacting carbon sinks, and industrial processes releasing methane and nitr nitrous oxide, amongst others.  The major culprit is an increase in atmosph atmospheric CO2 concentrations attributable to these human actions spanning spanning through history. Centuries of land use changes (mostly deforestati deforestation) remove vital plant material that absorbs carbon; more freque frequent global warming leads to a feedback mechanism: melting permafrost r releases stored GHGs – further accelerating temperature increases.    **Three Government Initiatives for Emissions Reduction:**   1\.  **Renewed Energy Transition & Investment:** Significantly ramp-up inve investment into renewable energy sources like solar, wind, geothermal, and  hydro power. Phase out coal plants promptly across many regions.   2. **Carbon Pricing Mechanisms**: Implement a Carbon Tax or Cap-and-Trade S System. This creates an incentive for businesses and individuals to lower t their emissions because they now pay for the pollution they produce. Revenu Revenue generated can be reinvested into greener initiatives    3\.   **Strict Regulations & Sector Emission Standard Setting:** Enforce st stricter regulations on industrial pollutions across various sectors: autom automotive, manufacturing, agriculture. Establishing emission standards req requiring reduction targets for specific activities allows governments to p proactively manage emissions.     ---  It is essential to understand the complexities but these strategies combine combined can significantly shift towards decarbonization while minimizing l long-term disruptions.    Do you have any other questions about climate change or this response?  ","total duration:       8.6684127s
+load duration:        428.7651ms
+prompt eval count:    44 token(s)
+prompt eval duration: 215.757ms
+prompt eval rate:     203.93 tokens/s
+eval count:           339 token(s)
+eval duration:        8.01628s
+eval rate:            42.29 tokens/s
+Carbon Emissions: 2.574e-05 kgCO2e","total duration:       7.8040318s
+load duration:        419.0644ms
+prompt eval count:    44 token(s)
+prompt eval duration: 56.765ms
+prompt eval rate:     775.13 tokens/s
+eval count:           320 token(s)
+eval duration:        7.313232s
+eval rate:            43.76 tokens/s
+Carbon Emissions: 2.343e-05 kgCO2e","total duration:       8.2206851s
+load duration:        427.2498ms
+prompt eval count:    44 token(s)
+prompt eval duration: 55.428ms
+prompt eval rate:     793.82 tokens/s
+eval count:           332 token(s)
+eval duration:        7.732427s
+eval rate:            42.94 tokens/s
+Carbon Emissions: 2.791e-05 kgCO2e","total duration:       10.6752262s
+load duration:        423.8181ms
+prompt eval count:    44 token(s)
+prompt eval duration: 50.534ms
+prompt eval rate:     870.70 tokens/s
+eval count:           443 token(s)
+eval duration:        10.18654s
+eval rate:            43.49 tokens/s
+Carbon Emissions: 2.987e-05 kgCO2e","Avg Total Duration: 8.900s
+Avg Load Duration: 0.423s
+Avg Prompt Eval Count: 44.00 token(s)
+Avg Prompt Eval Duration: 0.054s
+Avg Prompt Eval Rate: 813.22 tokens/s
+Avg Eval Count: 365.00 token(s)
+Avg Eval Duration: 8.411s
+Avg Eval Rate: 43.40 tokens/s
+Avg Carbon Emissions: 2.707e-05 kgCO2e"
+AMD Ryzen 7 6800H,gemma3:1b,Summarisation,"
+Article:
+Edge AI refers to the deployment of artificial intelligence directly on local devices where data is generated, rather than relying entirely on remote cloud servers. Instead of sending information across the internet for processing, AI models operate on the device itself. Examples include smartphone voice assistants, smart cameras that detect motion, and wearable health monitors that provide immediate feedback.
+One of the main reasons for using Edge AI is speed. Because data does not need to travel to a remote server and back, decisions can be made almost instantly. This low latency is particularly important in applications such as autonomous vehicles, industrial automation, and healthcare systems where delays could reduce effectiveness or even create safety risks.
+Edge AI also improves privacy and security. Since sensitive data can remain on the device, organisations and users reduce the risks associated with transmitting personal information across networks. This makes Edge AI attractive for applications involving financial, medical, or personal data.
+Another advantage is reduced dependence on internet connectivity. Devices can continue operating even when network access is limited or unavailable. In addition, transmitting less data to cloud services can lower operating costs and reduce bandwidth usage.
+To enable AI on resource-constrained devices, machine learning models are often compressed and optimised. These models can run on hardware such as smartphones, smart cameras, drones, robots, industrial sensors, and single-board computers like the Raspberry Pi. More powerful edge systems may also use specialised hardware accelerators to improve AI performance while maintaining energy efficiency.
+Common applications of Edge AI include facial recognition on smartphones, inventory monitoring in retail stores, traffic analysis in smart cities, predictive maintenance in industrial environments, and wearable healthcare devices that monitor patient conditions in real time.
+Although Edge AI provides many benefits, it also presents challenges. Edge devices typically have less processing power, memory, and storage than cloud servers. Developers must therefore balance model accuracy, response speed, and resource consumption when deploying AI applications at the edge.
+As artificial intelligence continues to advance, Edge AI is expected to play an increasingly important role in enabling fast, private, and reliable intelligent systems. Future applications are likely to include advanced robotics, smart transportation networks, intelligent manufacturing systems, and large-scale Internet of Things ecosystems.
+
+Summarise the provided article in approximately 150 words while retaining the main ideas, key findings, and conclusions.
+","     Here’s a summary focusing on approximately 150words:  Edge AI represents the shift to process artificial intelligence directly on onto local devices – smartphones, cameras, and wearable sensors – rather th than relying solely on centralized cloud data processing centers. This offe offers significant advantages including accelerated decision making due to  drastically reduced latency, a critical factor for applications like autono autonomous vehicles & healthcare. Crucially, Edge simplifies privacy by eli eliminating the need to transmit sensitive information across networks.  Re Reduced dependence on robust internet connections lowers operational costs  and bandwidth usage.  Although resource-constrained Edge devices are significantly less capable t than cloud servers, developers carefully optimize models with machine learn learning techniques like compression to balance performance with power effi efficiency. This burgeoning technology is rapidly transforming diverse area areas through applications like facial recognition, inventory management, t traffic analytics, medical monitoring, and robotics—pointing towards widesp widespread integration across industries. As AI evolves, Edge AI promises f fundamentally faster, more private, and secure intelligent systems, driving driving innovation in future sectors from advanced robotics to sprawling in interconnected IoT networks.  ","total duration:       5.0975133s
+load duration:        431.367ms
+prompt eval count:    473 token(s)
+prompt eval duration: 59.237ms
+prompt eval rate:     7984.87 tokens/s
+eval count:           202 token(s)
+eval duration:        4.593709s
+eval rate:            43.97 tokens/s
+Carbon Emissions: 1.902e-05 kgCO2e","total duration:       4.34911s
+load duration:        419.0894ms
+prompt eval count:    473 token(s)
+prompt eval duration: 56.069ms
+prompt eval rate:     8436.03 tokens/s
+eval count:           168 token(s)
+eval duration:        3.862096s
+eval rate:            43.50 tokens/s
+Carbon Emissions: 1.819e-05 kgCO2e","total duration:       5.4364148s
+load duration:        427.9803ms
+prompt eval count:    473 token(s)
+prompt eval duration: 55.582ms
+prompt eval rate:     8509.95 tokens/s
+eval count:           215 token(s)
+eval duration:        4.944212s
+eval rate:            43.49 tokens/s
+Carbon Emissions: 1.830e-05 kgCO2e","total duration:       4.68143s
+load duration:        413.6557ms
+prompt eval count:    473 token(s)
+prompt eval duration: 55.06ms
+prompt eval rate:     8590.63 tokens/s
+eval count:           184 token(s)
+eval duration:        4.197663999s
+eval rate:            43.83 tokens/s
+Carbon Emissions: 1.501e-05 kgCO2e","Avg Total Duration: 4.822s
+Avg Load Duration: 0.420s
+Avg Prompt Eval Count: 473.00 token(s)
+Avg Prompt Eval Duration: 0.056s
+Avg Prompt Eval Rate: 8512.20 tokens/s
+Avg Eval Count: 189.00 token(s)
+Avg Eval Duration: 4.335s
+Avg Eval Rate: 43.61 tokens/s
+Avg Carbon Emissions: 1.717e-05 kgCO2e"
+AMD Ryzen 7 6800H,gemma3:1b,Logical Reasoning,"
+A farmer needs to transport a fox, a chicken, and a bag of grain across a river. His boat can carry only himself and one item at a time. If left unattended, the fox will eat the chicken and the chicken will eat the grain. Describe the sequence of crossings required to transport all three safely and explain your reasoning step by step.
+","    Okay, this is a classic puzzle! Here's the breakdown to guide the farmer in in solving this problem.  It requires careful thought about timing and stra strategy.  **Understanding the Rules:**  *   The boat can only hold one item (farmer, fox, or chicken) at a time. *   Leaving the fox and chicken together causes them to eat each other; lea leaving the chicken and grain together causes the chicken to starve.  **Proposed Solutions – Here are three possible solutions:**  **Solution 1 - Most Efficient Route**  (This is usually the best solution,  but can be slightly longer)   1.  Farmer takes the hen across the river (This solves the immediate proble problem). 2.  Returns alone. 3.  Farmer takes the fox across the river again.  4.  Returns alone. 5.  Farmer brings the chicken back across the river (The fox cannot eat the the grain or the chicken as it is already across) 6.  farmer returns to the initial state  **Solution 2 – Slightly Less Efficient** (Note that it's only possible, due due to the limited number of steps).    1. Farmer takes the chicken across. 2. Returns alone. 3.Farmer takes the fox back. 4. Farmer brings the grain across. 5.  Returns alone.  **Solution 3 - Slightly Less Efficient (Focuses on minimizing delays)**  1.  Bring the farmer across. 2.  Leave the farmer and chicken. 3. Return alone. 4.  Bring the hen across. 5. Bring back to begin again, bringing the fox across.  **Reasoning & Strategy:** The key is to use each trip strategically and avo avoid creating any dangerous situations. Each step focuses on manipulating  the animals’ positions – making sure they don’t interfere with each other's other's safety or create conflicts until a transition can be made.   --- Now, if you want me to:  *   Consider additional possibilities? (e.g., elaborate permutations) *  Provide a diagram?  ","total duration:       9.9859451s
+load duration:        424.6667ms
+prompt eval count:    81 token(s)
+prompt eval duration: 54.506ms
+prompt eval rate:     1486.07 tokens/s
+eval count:           430 token(s)
+eval duration:        9.497643s
+eval rate:            45.27 tokens/s
+Carbon Emissions: 2.614e-05 kgCO2e","total duration:       8.8667277s
+load duration:        419.9875ms
+prompt eval count:    81 token(s)
+prompt eval duration: 53.077ms
+prompt eval rate:     1526.08 tokens/s
+eval count:           376 token(s)
+eval duration:        8.383725s
+eval rate:            44.85 tokens/s
+Carbon Emissions: 2.394e-05 kgCO2e","total duration:       9.3960548s
+load duration:        419.3275ms
+prompt eval count:    81 token(s)
+prompt eval duration: 52.449ms
+prompt eval rate:     1544.36 tokens/s
+eval count:           398 token(s)
+eval duration:        8.922568s
+eval rate:            44.61 tokens/s
+Carbon Emissions: 2.697e-05 kgCO2e","total duration:       6.7310037s
+load duration:        421.1219ms
+prompt eval count:    81 token(s)
+prompt eval duration: 53.185ms
+prompt eval rate:     1522.99 tokens/s
+eval count:           282 token(s)
+eval duration:        6.250105s
+eval rate:            45.12 tokens/s
+Carbon Emissions: 1.947e-05 kgCO2e","Avg Total Duration: 8.331s
+Avg Load Duration: 0.420s
+Avg Prompt Eval Count: 81.00 token(s)
+Avg Prompt Eval Duration: 0.053s
+Avg Prompt Eval Rate: 1531.14 tokens/s
+Avg Eval Count: 352.00 token(s)
+Avg Eval Duration: 7.852s
+Avg Eval Rate: 44.86 tokens/s
+Avg Carbon Emissions: 2.346e-05 kgCO2e"
+AMD Ryzen 7 6800H,gemma3:1b,Mathematical Reasoning,"
+A company sells laptops for R12,000 each. The production cost per laptop is R8,000 and monthly fixed costs are R200,000. Determine how many laptops must be sold to break even. Show all calculations and explain your reasoning.
+","        Okay, let's calculate the point where the company starts making a profit af after covering its expenses for at least one month with the revenue generat generated by sales.  **Formula:**  To breakeven, we need to find the number of units ('x') such that Total Rev Revenue equals Total Costs.  *   Total Revenue = Price per Laptop * Number of Laptops *   Total Cost= Fixed Costs + Variable costs   **1. Define Variables (Since we have revenue and cost per laptop):**  * Let 'x' represent the number of laptops that need to be sold. Let R12,000  be the selling price of each laptop.   **2. Determine Total Revenue for a specific Number of Laptops:**  Total Revenue = (Price/laptop) * (Number_of_Laptops)   = R12,000 \* x  **3. Compute Total Fixed Costs at a given number of Laptops.** Total Fixed costs is 200,000.   **4.  Establish Breakeven Point:**  The breakeven point occurs when total revenue equals total cost. We want to to solve for x such that:  Total Revenue = Total Cost  So:  R12,000 \*x = 200,000   (Let's express this as an equation)   **5. Solve for Number of Laptops (x):**  Divide both sides by the price per laptop and x :         x = 200,000 / 12,000 = 16.67  (Approximately)    Since we can't sell a fraction of a laptop, we need to round this up to ens ensure coverage. So that means 17 laptops is required to break even.  **Therefore, the company must sell approximately 17 laptops to break even.* even.**    *NOTE*: A slight adjustment could be made by increasing the number to br break even - so for example, selling 18 laptips is an alternative way. The  total revenue will increase more than is necessary if only considering the  basic number of laptop sold.*  **Disclaimer:** I've used rounding based on likely standard units. Producti Production costs might need adjustments depending on exact production costs costs.  ","total duration:       11.4915479s
+load duration:        420.2533ms
+prompt eval count:    70 token(s)
+prompt eval duration: 370.87ms
+prompt eval rate:     188.75 tokens/s
+eval count:           480 token(s)
+eval duration:        10.687852s
+eval rate:            44.91 tokens/s
+Carbon Emissions: 3.286e-05 kgCO2e","total duration:       19.8236076s
+load duration:        415.7999ms
+prompt eval count:    70 token(s)
+prompt eval duration: 52.45ms
+prompt eval rate:     1334.60 tokens/s
+eval count:           859 token(s)
+eval duration:        19.341761s
+eval rate:            44.41 tokens/s
+Carbon Emissions: 4.693e-05 kgCO2e","total duration:       5.4517302s
+load duration:        425.2793ms
+prompt eval count:    70 token(s)
+prompt eval duration: 52.645ms
+prompt eval rate:     1329.66 tokens/s
+eval count:           226 token(s)
+eval duration:        4.962574s
+eval rate:            45.54 tokens/s
+Carbon Emissions: 2.093e-05 kgCO2e","total duration:       16.2203085s
+load duration:        422.2268ms
+prompt eval count:    70 token(s)
+prompt eval duration: 52.006ms
+prompt eval rate:     1346.00 tokens/s
+eval count:           706 token(s)
+eval duration:        15.739378s
+eval rate:            44.86 tokens/s
+Carbon Emissions: 3.924e-05 kgCO2e","Avg Total Duration: 13.832s
+Avg Load Duration: 0.421s
+Avg Prompt Eval Count: 70.00 token(s)
+Avg Prompt Eval Duration: 0.052s
+Avg Prompt Eval Rate: 1336.75 tokens/s
+Avg Eval Count: 597.00 token(s)
+Avg Eval Duration: 13.348s
+Avg Eval Rate: 44.94 tokens/s
+Avg Carbon Emissions: 3.570e-05 kgCO2e"
+AMD Ryzen 7 6800H,gemma3:1b,Code Generation,"
+Write a Python program that reads a text file, counts the frequency of each word, and displays the ten most common words in descending order. Include comments explaining the logic and provide an example of how the program can be executed.
+","      ```python import re  # Import the regular expression module  def count_word_frequency(filename):     """"""        Counts the frequency of each word in a text file          Args:            filename (str): The name of the input files.        Returns:            list: A list of tuples containing the counts of words, sorted by by descending order.                Each tuple contains the word and its count.         """"""     word_counts = {}  # Dictionary to store word frequencies           try open(filename, 'r') as f:         text = f.readlines()        else :             text=f.read()                  for line in text:        words = re.findall(r'\b\w+\b', line.lower().replace("" "", """").replace """").replace(""-"", """")) # Extract words and convert to lowercase                # This regular expression finds all word characters (\w+) (a (alphanumeric)                word_counts = {}  # Reset counts for each new page of text       for word in words:         if word in word_counts:             word_counts[word] +=1              most_common_words = sorted(word_counts.items(), key=lambda item: item[1 item[1], reverse=True) # Sort by value (frequency)      return most_common_Words   def display_top_words(filename, top_n=10):  # Get top N words    """""" Displays the top N most common words from a file.""""""     word_frequencies = count_word_frequency(filename)    print(""Top {} Most Frequent Words: "".format(top_n))          for word, frequency in sorted(word_requencies, key=lambda item: item[1], item[1], reverse = True): #Sort by Frequency      print(word + "" ("" + str(frequency) +""):\n"")  if __name__ == ""__main__"":           filename = input(""Enter the filename:\na list of text files are allowed.\ allowed.\n"")  # Take input from user          top_words= count_word_frequency(filename)        display_top_words(filename, top_words)  ```  **Explanation:**  1. **Import `re` Module:** The line `import re` imports the regular express expression module allowing you to use regular expressions for cleaner word  extraction and cleanup.  2.  **`count_word_frequency(filename)` function:**    * Takes the filename as input:  The filename being processed from an ext external text file as input into the program. The provided function takes a a string filename,    * Initialization: Creates an empty dictionary `word_counts`. This will s store each word and its frequency (count).       ```python       # Set default number for top words to display,  can be set to variabl variable if needed         top_n = 10        ```        * Read text File: Uses the read function from the files module 'file' in in Python; reads the entire content of the file into a string.   Uses `f.re `f.readlines()` to get lines as list for processing the content. It also ch checks if it was using input to read, allowing to handle multiple source in inputs through the program.        ```python       # This line makes sure the code only reads text files and does not st start reading from user input       text=f.read()       if len(text) >= 10:  # Check for 10 lines (or more, if handling mult- mult-line output)           text = f.read() #read all lines once, if the file length is great greater than or equal to ten      ```     * Counting Word Frequencies (looping): It iterates through each characte character of each line.  It removes punctuation: `re.findall(r'\b\w+\b', li line.lower().replace("" "", """")`. It converts the text into lowercase using ` `.lower()`, removing spaces with `.replace("" "","""")` and replaces hyphens wi with nothing, to correctly handle plural/word-like words. For a word extrac extraction by re: find which would make it easier to clean.  The result of  re is converted into an integer count, keeping track the counts for each un unique word. Resets to empty counter again after any page           ```python       for line in text :   # looping through each line           words = re.findall(r'\b\w+\b', line.lower().replace("" "", """").repl """").replace(""-"", """"))            word_counts[word] += 1 # increment the counts for words          ```      * Extract and Sort Top Words:  It has this logic, sorting with `sorted` `sorted` and a lambda function to sort based on frequency (value). Uses Pyt Python's built in sorted to give a standard order.       ```python         most_common_words = sorted(word_counts.items(), key=lambda item: it item[1], reverse = True) #Sort by value (frequency)          ```  3. **`display_top_words(filename, top_n)` function:**    - Takes the filename and `top_n` as inputs to define how many top words   would need to be displayed..     ```python       return most_commonWords    ```  4. **main block (`if __name__ == ""__main__"":`)**       * Input from user: prompts user to enter the filename through `input() `input()`.       - Calling functions and displaying : Prints the text, calls `count_word_ `count_word_frequency()` with the inputted file to get each text in a list  of items, call the function to display the most frequent words and prints t the output on screen.  **How to Run:** 1. Save the code as a Python file (e.g., `word_counter.py`). 2. Create a text files for which you want word frequency analysis (for exam example, you might create a files named ""my_text_file.txt"" and ""another_tex ""another_text_file.txt""). 3. Execute the program from your terminal using:  `python word_counter.py`. word_counter.py`. The `input()` statement will prompt the user for filename filename. Ensure that this file exists in your filesystem. 4. After executing, it will display the top 10 most common words in descend descending order based on their frequency of occurrence in each text files. files.  **Example Usage (with test data):**  Let's suppose you have a `my_text_file.txt` with the following content: ``` This is a sample file, it contains some words.  Words are important and count will be counted. This file tests the word cou counting program. Here's another line with some less relevant words:  hello world hello! word frequency. ```  When you run `python word_counter.py`, with this input filename: my_text_fi my_text_file.txt, the output will be approximately like so:  ``` Top 10 Most Frequent Words: hello (4) world (2) this (2) words (2) is (2) file (2) content (1) it (1) important (1) some (1) ```  And, if `top_n` is set to 5, the program will display the first five top wo words: ""hello"", ""world"", ""this"", ""is"", and ""words"".  ","total duration:       37.0305329s
+load duration:        418.5831ms
+prompt eval count:    56 token(s)
+prompt eval duration: 250.188ms
+prompt eval rate:     223.83 tokens/s
+eval count:           1601 token(s)
+eval duration:        36.348264s
+eval rate:            44.05 tokens/s
+Carbon Emissions: 8.195e-05 kgCO2e","total duration:       28.1226813s
+load duration:        416.3889ms
+prompt eval count:    56 token(s)
+prompt eval duration: 52.753ms
+prompt eval rate:     1061.55 tokens/s
+eval count:           1222 token(s)
+eval duration:        27.636606s
+eval rate:            44.22 tokens/s
+Carbon Emissions: 6.287e-05 kgCO2e","total duration:       26.7268725s
+load duration:        426.5234ms
+prompt eval count:    56 token(s)
+prompt eval duration: 52.609ms
+prompt eval rate:     1064.46 tokens/s
+eval count:           1158 token(s)
+eval duration:        26.243858s
+eval rate:            44.12 tokens/s
+Carbon Emissions: 6.373e-05 kgCO2e","total duration:       28.8252373s
+load duration:        422.5189ms
+prompt eval count:    56 token(s)
+prompt eval duration: 52.739ms
+prompt eval rate:     1061.83 tokens/s
+eval count:           1256 token(s)
+eval duration:        28.340507s
+eval rate:            44.32 tokens/s
+Carbon Emissions: 6.299e-05 kgCO2e","Avg Total Duration: 27.892s
+Avg Load Duration: 0.422s
+Avg Prompt Eval Count: 56.00 token(s)
+Avg Prompt Eval Duration: 0.053s
+Avg Prompt Eval Rate: 1062.61 tokens/s
+Avg Eval Count: 1212.00 token(s)
+Avg Eval Duration: 27.407s
+Avg Eval Rate: 44.22 tokens/s
+Avg Carbon Emissions: 6.320e-05 kgCO2e"

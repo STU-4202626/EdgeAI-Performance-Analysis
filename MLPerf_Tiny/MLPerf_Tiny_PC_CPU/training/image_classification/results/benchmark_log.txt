@@ -1,0 +1,123 @@
+
+Dataset Information
+---------------------
+Dataset: CIFAR-10
+Classes: ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck']
+Number of Classes: 10
+Images Evaluated: 200
+---------------------
+
+
+================ WARM-UP ================
+
+Benchmark Repetitions:    3
+Minimum Measurement Time: 30 seconds
+Total Measurement Time:   30.457 seconds
+Inference Time:           10.152 seconds
+Throughput:               19.70 images/second
+Carbon Emissions:         1.646e-05 kgCO2e
+Status:              Excluded from Average
+
+================ RUN 1 ================
+
+Benchmark Repetitions:    3
+Minimum Measurement Time: 30 seconds
+Total Measurement Time:   30.280 seconds
+Inference Time:           10.093 seconds
+Throughput:               19.82 images/second
+Carbon Emissions:         1.582e-05 kgCO2e
+Status:              Included in Average
+
+================ RUN 2 ================
+
+Benchmark Repetitions:    3
+Minimum Measurement Time: 30 seconds
+Total Measurement Time:   30.405 seconds
+Inference Time:           10.135 seconds
+Throughput:               19.73 images/second
+Carbon Emissions:         1.625e-05 kgCO2e
+Status:              Included in Average
+
+================ RUN 3 ================
+
+Benchmark Repetitions:    3
+Minimum Measurement Time: 30 seconds
+Total Measurement Time:   30.559 seconds
+Inference Time:           10.186 seconds
+Throughput:               19.63 images/second
+Carbon Emissions:         1.665e-05 kgCO2e
+Status:              Included in Average
+
+---------------------
+Performance on the Image Classification Benchmark
+Accuracy: 0.87
+MLPerf Target:       85%
+Benchmark Status:    PASSED
+---------------------
+Classification Report
+              precision    recall  f1-score   support
+
+           0       0.89      0.80      0.84        20
+           1       0.86      0.95      0.90        20
+           2       0.88      0.70      0.78        20
+           3       0.75      0.75      0.75        20
+           4       0.86      0.95      0.90        20
+           5       0.83      0.75      0.79        20
+           6       0.83      1.00      0.91        20
+           7       0.95      0.90      0.92        20
+           8       0.95      0.95      0.95        20
+           9       0.90      0.95      0.93        20
+
+    accuracy                           0.87       200
+   macro avg       0.87      0.87      0.87       200
+weighted avg       0.87      0.87      0.87       200
+
+---------------------
+Confusion matrix saved to:
+results\confusion_matrix.png
+---------------------
+Emission Report
+Carbon Emissions:     1.665e-05 kgCO2e
+---------------------
+EEMBC calculate_accuracy method
+Overall accuracy = 87.0
+---------------------
+sklearn.metrics.roc_auc_score method
+AUC sklearn:  0.9891111111111112
+---------------------
+EEMBC calculate_auc method
+Simplified average roc_auc = 0.980
+ROC curve saved to:
+results\roc_curve.png
+---------------------
+Prediction results saved to:
+results\image_classification_predictions.csv
+
+Benchmark results saved to:
+results\image_classification_benchmark_results.csv
+---------------------
+
+==========================================
+Benchmark completed successfully.
+==========================================
+Device: AMD Ryzen 7 6800H
+Workload: Image Classification
+
+Warm-up Run: Completed
+Measured Runs: 3
+
+Raw Benchmark Data:
+image_classification_benchmark_results.csv
+
+Prediction Results:
+image_classification_predictions.csv
+
+Confusion Matrix:
+confusion_matrix.png
+
+ROC Curve:
+roc_curve.png
+
+The warm-up execution is excluded from the average.
+Run compile_results.py to calculate the averaged benchmark results.
+==========================================

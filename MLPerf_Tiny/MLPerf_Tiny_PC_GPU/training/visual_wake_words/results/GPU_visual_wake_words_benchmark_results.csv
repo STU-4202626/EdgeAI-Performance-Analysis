@@ -1,0 +1,5 @@
+Run,Device,Workload,Dataset,Model,Samples Evaluated,Repetitions,Target Measurement Time (s),Total Measurement Time (s),Accuracy,Precision,Recall,F1-Score,ROC-AUC,Inference Time (s),Throughput,Carbon Emissions (kgCO2e),MLPerf Target,Benchmark Status
+Warm-up,NVIDIA GeForce RTX 4090,Visual Wake Words,Visual Wake Words,vww_96.h5,1000,1,30.0,40.341,0.867,0.9238,0.8,0.8574,0.94,40.341,24.79,4.969e-04,0.8,PASSED
+Run 1,NVIDIA GeForce RTX 4090,Visual Wake Words,Visual Wake Words,vww_96.h5,1000,1,30.0,42.843,0.867,0.9238,0.8,0.8574,0.94,42.843,23.34,4.940e-04,0.8,PASSED
+Run 2,NVIDIA GeForce RTX 4090,Visual Wake Words,Visual Wake Words,vww_96.h5,1000,1,30.0,42.244,0.867,0.9238,0.8,0.8574,0.94,42.244,23.67,4.895e-04,0.8,PASSED
+Run 3,NVIDIA GeForce RTX 4090,Visual Wake Words,Visual Wake Words,vww_96.h5,1000,1,30.0,42.67,0.867,0.9238,0.8,0.8574,0.94,42.67,23.44,4.918e-04,0.8,PASSED

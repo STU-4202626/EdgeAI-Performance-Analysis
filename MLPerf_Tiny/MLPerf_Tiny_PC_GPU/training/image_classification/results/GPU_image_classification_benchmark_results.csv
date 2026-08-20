@@ -1,0 +1,5 @@
+Run,Device,Workload,Dataset,Model,Samples Evaluated,Repetitions,Target Measurement Time (s),Total Measurement Time (s),Accuracy,Precision,Recall,F1-Score,ROC-AUC,Inference Time (s),Throughput,Carbon Emissions (kgCO2e),MLPerf Target,Benchmark Status
+Warm-up,NVIDIA GeForce RTX 4090,Image Classification,CIFAR-10,pretrainedResnet.h5,200,4,30.0,32.972,0.87,0.871,0.87,0.8678,0.9891,8.243,24.26,1.049e-04,0.85,PASSED
+Run 1,NVIDIA GeForce RTX 4090,Image Classification,CIFAR-10,pretrainedResnet.h5,200,4,30.0,32.073,0.87,0.871,0.87,0.8678,0.9891,8.018,24.94,1.032e-04,0.85,PASSED
+Run 2,NVIDIA GeForce RTX 4090,Image Classification,CIFAR-10,pretrainedResnet.h5,200,4,30.0,32.219,0.87,0.871,0.87,0.8678,0.9891,8.055,24.83,1.032e-04,0.85,PASSED
+Run 3,NVIDIA GeForce RTX 4090,Image Classification,CIFAR-10,pretrainedResnet.h5,200,4,30.0,32.226,0.87,0.871,0.87,0.8678,0.9891,8.057,24.82,1.045e-04,0.85,PASSED

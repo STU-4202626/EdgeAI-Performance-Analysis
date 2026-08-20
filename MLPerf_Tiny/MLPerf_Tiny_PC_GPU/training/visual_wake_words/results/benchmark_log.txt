@@ -1,0 +1,108 @@
+Dataset Information
+---------------------
+Dataset: Visual Wake Words
+Classes: ['non_person', 'person']
+Person images: 500
+Non-person images: 500
+Images Evaluated: 1000
+---------------------
+
+
+================ WARM-UP ================
+
+Benchmark Repetitions:    1
+Minimum Measurement Time: 30 seconds
+Total Measurement Time:   40.341 seconds
+Inference Time:           40.341 seconds
+Throughput:          24.79 images/second
+Carbon Emissions:    4.969e-04 kgCO2e
+Status:              Excluded from Average
+
+================ RUN 1 ================
+
+Benchmark Repetitions:    1
+Minimum Measurement Time: 30 seconds
+Total Measurement Time:   42.843 seconds
+Inference Time:           42.843 seconds
+Throughput:          23.34 images/second
+Carbon Emissions:    4.940e-04 kgCO2e
+Status:              Included in Average
+
+================ RUN 2 ================
+
+Benchmark Repetitions:    1
+Minimum Measurement Time: 30 seconds
+Total Measurement Time:   42.244 seconds
+Inference Time:           42.244 seconds
+Throughput:          23.67 images/second
+Carbon Emissions:    4.895e-04 kgCO2e
+Status:              Included in Average
+
+================ RUN 3 ================
+
+Benchmark Repetitions:    1
+Minimum Measurement Time: 30 seconds
+Total Measurement Time:   42.670 seconds
+Inference Time:           42.670 seconds
+Throughput:          23.44 images/second
+Carbon Emissions:    4.918e-04 kgCO2e
+Status:              Included in Average
+
+---------------------
+Performance on the Visual Wake Words Benchmark
+Accuracy: 0.8670
+MLPerf Target:       80%
+Benchmark Status:    PASSED
+---------------------
+Classification Report
+              precision    recall  f1-score   support
+
+  non_person       0.82      0.93      0.88       500
+      person       0.92      0.80      0.86       500
+
+    accuracy                           0.87      1000
+   macro avg       0.87      0.87      0.87      1000
+weighted avg       0.87      0.87      0.87      1000
+
+---------------------
+Emission Report
+Carbon Emissions:    4.918e-04 kgCO2e
+---------------------
+Confusion matrix saved to:
+results/confusion_matrix.png
+---------------------
+ROC curve saved to:
+results/roc_curve.png
+---------------------
+Prediction results saved to:
+results/visual_wake_words_predictions.csv
+---------------------
+
+Benchmark results saved to:
+results/GPU_visual_wake_words_benchmark_results.csv
+---------------------
+
+==========================================
+Benchmark completed successfully.
+==========================================
+Device: NVIDIA GeForce RTX 4090
+Workload: Visual Wake Words
+
+Warm-up Run: Completed
+Measured Runs: 3
+
+Raw Benchmark Data:
+GPU_visual_wake_words_benchmark_results.csv
+
+Prediction Results:
+visual_wake_words_predictions.csv
+
+Confusion Matrix:
+confusion_matrix.png
+
+ROC Curve:
+roc_curve.png
+
+The warm-up execution is excluded from the average.
+Run compile_results.py to calculate the averaged benchmark results.
+==========================================

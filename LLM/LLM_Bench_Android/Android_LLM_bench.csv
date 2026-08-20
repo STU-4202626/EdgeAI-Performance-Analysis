@@ -1,0 +1,226 @@
+device_name,model_name,workload_category,prompt_text,model_response,warmup_metrics,verbose_metrics1,verbose_metrics2,verbose_metrics3,avg_metrics
+Samsung S26 Ultra,gemma3:1b,Knowledge Retrieval,"
+Explain the main causes of climate change and discuss three strategies that governments can implement to reduce greenhouse gas emissions. Provide a structured response of approximately 250 words.
+","                           Okay, here's an explication of the main drivers behind current global warmi warming, followed by three strategic options for governments:  **Main Drivers of Climate Change – An Overview:**  The primary cause of climate change today is overwhelmingly human-induced – – particularly increases in greenhouse gasses that trap heat inside Earth’s Earth’s atmosphere. It’s a complex phenomenon stemming mainly from three ma major sources:   * **Greenhouse Gas Emissions**: Carbon dioxide (CO2) released by the burnin burning and natural weathering of fossil fuels (coal, oil, gas), releasing  methane (CH4) produced more rapidly through agriculture, and nitrous oxide  (N2O). Deforestation also contributes significantly. * **Land Use/Alteration:** Changes to how our land is used – deforestation  exacerbates carbon release; urbanization adds impervious surfaces leading t to heat absorption— amplify the effects of emissions. * **Feedback Loops**: Certain climate variables, like warming Arctic ice-al ice-albedo feedback, accelerate change rapidly and are difficult to fully u understand.   **Three Strategies Governments Can Implement:**  1. **Transition Renewable Energy Systems:** Significant investments in sola solar, wind power, hydro, geothermal energy, and other renewables – phasing phasing out fossil fuels - drastically lower emissions from energy producti production. Incentivize renewable portfolio development through subsidies a and tax cuts for these resources.  2. **Implementing Carbon Taxation/Flexibility Programs:**  Carbon tariffs o on goods departing from developed nations or introducing tax incentives bas based on CO2 content can incentivise companies to reduce their carbon footp footprint across the entire value chain – essentially making it costly to c continue using fossil fuels. 3. **Protecting and Expanding Forests & Rewilding** Invest in forest restor restoration, sustainable forestry, and large-scale rewilding efforts (reint (reintegrating natural landscapes) can help sequester CO2 from the atmosphe atmosphere via plants, further reducing atmospheric greenhouse gas concentr concentrations.   Addressing this challenge requires bold action coordinated globally with te technological innovation and public awareness.”  --- Let me know if you'd like a different perspective or more details on any of of these points!  ","total duration:       11.845105672s
+load duration:        2.467087342s
+prompt eval count:    44 token(s)
+prompt eval duration: 228.465ms
+prompt eval rate:     192.59 tokens/s
+eval count:           414 token(s)
+eval duration:        9.146959s
+eval rate:            45.26 tokens/s
+Carbon Emissions: 3.671e-07 kgCO2e","total duration:       8.10738807s
+load duration:        499.33276ms
+prompt eval count:    44 token(s)
+prompt eval duration: 81.398ms
+prompt eval rate:     540.55 tokens/s
+eval count:           347 token(s)
+eval duration:        7.520652s
+eval rate:            46.14 tokens/s
+Carbon Emissions: 2.505e-07 kgCO2e","total duration:       10.127088954s
+load duration:        573.306562ms
+prompt eval count:    44 token(s)
+prompt eval duration: 91.286ms
+prompt eval rate:     482.00 tokens/s
+eval count:           425 token(s)
+eval duration:        9.455158s
+eval rate:            44.95 tokens/s
+Carbon Emissions: 3.123e-07 kgCO2e","total duration:       11.415919162s
+load duration:        508.901562ms
+prompt eval count:    44 token(s)
+prompt eval duration: 65.474999ms
+prompt eval rate:     672.01 tokens/s
+eval count:           383 token(s)
+eval duration:        10.836162s
+eval rate:            35.34 tokens/s
+Carbon Emissions: 3.524e-07 kgCO2e","Avg Total Duration: 9.883s
+Avg Load Duration: 0.527s
+Avg Prompt Eval Count: 44.00 token(s)
+Avg Prompt Eval Duration: 0.079s
+Avg Prompt Eval Rate: 564.85 tokens/s
+Avg Eval Count: 385.00 token(s)
+Avg Eval Duration: 9.271s
+Avg Eval Rate: 42.14 tokens/s
+Avg Carbon Emissions: 3.051e-07 kgCO2e"
+Samsung S26 Ultra,gemma3:1b,Summarisation,"
+Article:
+Edge AI refers to the deployment of artificial intelligence directly on local devices where data is generated, rather than relying entirely on remote cloud servers. Instead of sending information across the internet for processing, AI models operate on the device itself. Examples include smartphone voice assistants, smart cameras that detect motion, and wearable health monitors that provide immediate feedback.
+One of the main reasons for using Edge AI is speed. Because data does not need to travel to a remote server and back, decisions can be made almost instantly. This low latency is particularly important in applications such as autonomous vehicles, industrial automation, and healthcare systems where delays could reduce effectiveness or even create safety risks.
+Edge AI also improves privacy and security. Since sensitive data can remain on the device, organisations and users reduce the risks associated with transmitting personal information across networks. This makes Edge AI attractive for applications involving financial, medical, or personal data.
+Another advantage is reduced dependence on internet connectivity. Devices can continue operating even when network access is limited or unavailable. In addition, transmitting less data to cloud services can lower operating costs and reduce bandwidth usage.
+To enable AI on resource-constrained devices, machine learning models are often compressed and optimised. These models can run on hardware such as smartphones, smart cameras, drones, robots, industrial sensors, and single-board computers like the Raspberry Pi. More powerful edge systems may also use specialised hardware accelerators to improve AI performance while maintaining energy efficiency.
+Common applications of Edge AI include facial recognition on smartphones, inventory monitoring in retail stores, traffic analysis in smart cities, predictive maintenance in industrial environments, and wearable healthcare devices that monitor patient conditions in real time.
+Although Edge AI provides many benefits, it also presents challenges. Edge devices typically have less processing power, memory, and storage than cloud servers. Developers must therefore balance model accuracy, response speed, and resource consumption when deploying AI applications at the edge.
+As artificial intelligence continues to advance, Edge AI is expected to play an increasingly important role in enabling fast, private, and reliable intelligent systems. Future applications are likely to include advanced robotics, smart transportation networks, intelligent manufacturing systems, and large-scale Internet of Things ecosystems.
+
+Summarise the provided article in approximately 150 words while retaining the main ideas, key findings, and conclusions.
+","                                    Here's a condensed summarization based on your instructions – roughly 150wo 150words:   Edge AI leverages artificial intelligence directly on local devices like sm smartphones, security systems, and wearables, moving away from cloud depend dependence to significantly faster response times – an order of magnitude q quicker than remote server access. The main benefits are improved privacy a and security as sensitive data remains on-site, reducing risks associated w with data transmission.  Reduced reliance on internet connectivity fosters  offline operation and lowers operational costs by lessening bandwidth requi requirements.   The challenge lies in adapting machine learning models to these resources-c resources-constrained devices, requiring compression and optimization for p performance. Ongoing advancements see Edge AI being deployed across various various sectors – from facial recognition to traffic monitoring – significa significantly accelerating application development through powerful sensors sensors like drones and robotics, potentially creating the core of smart ma manufacturing and increasingly sophisticated Internet of Things (IoT) ecosy ecosystems - ultimately positioning it as a crucial element in future, resp responsive AI functionalities.  ","total duration:       8.292875361s
+load duration:        510.515ms
+prompt eval count:    473 token(s)
+prompt eval duration: 3.092286s
+prompt eval rate:     152.96 tokens/s
+eval count:           187 token(s)
+eval duration:        4.676179s
+eval rate:            39.99 tokens/s
+Carbon Emissions: 2.561e-07 kgCO2e","total duration:       5.046522394s
+load duration:        557.370104ms
+prompt eval count:    473 token(s)
+prompt eval duration: 73.696ms
+prompt eval rate:     6418.26 tokens/s
+eval count:           187 token(s)
+eval duration:        4.408539s
+eval rate:            42.42 tokens/s
+Carbon Emissions: 1.564e-07 kgCO2e","total duration:       4.716290832s
+load duration:        546.174844ms
+prompt eval count:    473 token(s)
+prompt eval duration: 73.783ms
+prompt eval rate:     6410.69 tokens/s
+eval count:           175 token(s)
+eval duration:        4.088505s
+eval rate:            42.80 tokens/s
+Carbon Emissions: 1.462e-07 kgCO2e","total duration:       5.415395415s
+load duration:        554.38125ms
+prompt eval count:    473 token(s)
+prompt eval duration: 71.65ms
+prompt eval rate:     6601.54 tokens/s
+eval count:           204 token(s)
+eval duration:        4.779524s
+eval rate:            42.68 tokens/s
+Carbon Emissions: 1.676e-07 kgCO2e","Avg Total Duration: 5.059s
+Avg Load Duration: 0.553s
+Avg Prompt Eval Count: 473.00 token(s)
+Avg Prompt Eval Duration: 0.073s
+Avg Prompt Eval Rate: 6476.83 tokens/s
+Avg Eval Count: 188.67 token(s)
+Avg Eval Duration: 4.426s
+Avg Eval Rate: 42.63 tokens/s
+Avg Carbon Emissions: 1.567e-07 kgCO2e"
+Samsung S26 Ultra,gemma3:1b,Logical Reasoning,"
+A farmer needs to transport a fox, a chicken, and a bag of grain across a river. His boat can carry only himself and one item at a time. If left unattended, the fox will eat the chicken and the chicken will eat the grain. Describe the sequence of crossings required to transport all three safely and explain your reasoning step by step.
+","           This is an Ancient Russian Riddle – it's designed to be deceptive! There’s  no *straightforward* solution that minimizes risk or number of steps. Here’ Here’s a plan for solving it, explained as logically as possible:  **The Core Strategy:** The crucial element is always considering the potent potential consequences in each step and how you change the board to avoid t the worst scenario.  We want to prevent the chicken from being eaten by the the fox before we transport the grain.    1. **Farmer takes the Chicken across the River.** (Risk: Fox eats chicken.) chicken.) 2. **Farmer returns Alone.** (No Risk) 3. **Farmer brings the Grain back.** (Prevent fox from eating the grain) -  important because the chicken can't be released to eat it *while* the fox i is on the side of the river.     **Step-by-step Visualization:**      1.  Start with the Farmer and the Chicken. The Farmer safely takes the C Chicken across.    2.  Return alone – now we have the Farmer. (No risk)     3.  Farmer brings back the Chicken - prevent the fox from eating the ch chicken     **Why this works (and it’s about thinking several steps ahead):**  This approach balances risks effectively to avoid any catastrophic outcome  for each animal: The risk of either the fox or the chicken consuming the ot other is eliminated before they are involved in crossing. It’s a classic pr problem designed for clever thinking, not simple calculations.   ---  Let me know if you'd like an explanation of why other sequences are less ef efficient!  ","total duration:       9.358592444s
+load duration:        533.93151ms
+prompt eval count:    81 token(s)
+prompt eval duration: 605.696ms
+prompt eval rate:     133.73 tokens/s
+eval count:           329 token(s)
+eval duration:        8.208777s
+eval rate:            40.08 tokens/s
+Carbon Emissions: 2.887e-07 kgCO2e","total duration:       9.400939372s
+load duration:        475.445781ms
+prompt eval count:    81 token(s)
+prompt eval duration: 72.867ms
+prompt eval rate:     1111.61 tokens/s
+eval count:           379 token(s)
+eval duration:        8.84532s
+eval rate:            42.85 tokens/s
+Carbon Emissions: 2.901e-07 kgCO2e","total duration:       6.958329477s
+load duration:        543.671458ms
+prompt eval count:    81 token(s)
+prompt eval duration: 92.713ms
+prompt eval rate:     873.66 tokens/s
+eval count:           273 token(s)
+eval duration:        6.316281s
+eval rate:            43.22 tokens/s
+Carbon Emissions: 2.149e-07 kgCO2e","total duration:       6.277142029s
+load duration:        562.001562ms
+prompt eval count:    81 token(s)
+prompt eval duration: 69.582ms
+prompt eval rate:     1164.09 tokens/s
+eval count:           241 token(s)
+eval duration:        5.640727s
+eval rate:            42.72 tokens/s
+Carbon Emissions: 1.939e-07 kgCO2e","Avg Total Duration: 7.545s
+Avg Load Duration: 0.527s
+Avg Prompt Eval Count: 81.00 token(s)
+Avg Prompt Eval Duration: 0.078s
+Avg Prompt Eval Rate: 1049.79 tokens/s
+Avg Eval Count: 297.67 token(s)
+Avg Eval Duration: 6.934s
+Avg Eval Rate: 42.93 tokens/s
+Avg Carbon Emissions: 2.330e-07 kgCO2e"
+Samsung S26 Ultra,gemma3:1b,Mathematical Reasoning,"
+A company sells laptops for R12,000 each. The production cost per laptop is R8,000 and monthly fixed costs are R200,000. Determine how many laptops must be sold to break even. Show all calculations and explain your reasoning.
+","          Okay, let's tackle this problem step-by-step:  **1. Calculate the Profit per Laptop:**  * Selling Price Per Laptops: R12,000 * Production Cost Per Laptop: R8,000 * Profit Per Laptop = (Selling price - production cost) / one laptop sold      Profit per laptop = (R12,000-R8,000)/one laptop=  R4,000/laptop.    **2. Calculate the Monthly Fixed Costs:**  *Monthly fixed costs: R200,000*   **3. Determine the Break-Even Point by Calculating a Contribution Margin pe per Laptop:**  *Contribution Margin : Profit Per Laptop - monthly fixed cost=R4,000–R200,0 cost=R4,000–R200,000= –196,000*    We can also find it by setting the contribution margin equal to zero: *19 *196,000/Profit per laptop= Contribution Margin*.     This translates to : 196,000 / R4,000 = 49 laptops    **Conclusion:**  To break even, the company must sell **49 laptops** each month.     ","total duration:       7.50398505s
+load duration:        525.510521ms
+prompt eval count:    70 token(s)
+prompt eval duration: 533.416ms
+prompt eval rate:     131.23 tokens/s
+eval count:           268 token(s)
+eval duration:        6.438453s
+eval rate:            41.62 tokens/s
+Carbon Emissions: 2.318e-07 kgCO2e","total duration:       13.518360412s
+load duration:        561.060521ms
+prompt eval count:    70 token(s)
+prompt eval duration: 84.301ms
+prompt eval rate:     830.36 tokens/s
+eval count:           503 token(s)
+eval duration:        12.86624s
+eval rate:            39.09 tokens/s
+Carbon Emissions: 4.168e-07 kgCO2e","total duration:       11.822935568s
+load duration:        662.330468ms
+prompt eval count:    70 token(s)
+prompt eval duration: 70.971ms
+prompt eval rate:     986.32 tokens/s
+eval count:           394 token(s)
+eval duration:        11.076373s
+eval rate:            35.57 tokens/s
+Carbon Emissions: 3.646e-07 kgCO2e","total duration:       18.647077233s
+load duration:        588.339948ms
+prompt eval count:    70 token(s)
+prompt eval duration: 76.978ms
+prompt eval rate:     909.35 tokens/s
+eval count:           571 token(s)
+eval duration:        17.971973s
+eval rate:            31.77 tokens/s
+Carbon Emissions: 5.744e-07 kgCO2e","Avg Total Duration: 14.663s
+Avg Load Duration: 0.604s
+Avg Prompt Eval Count: 70.00 token(s)
+Avg Prompt Eval Duration: 0.077s
+Avg Prompt Eval Rate: 908.68 tokens/s
+Avg Eval Count: 489.33 token(s)
+Avg Eval Duration: 13.972s
+Avg Eval Rate: 35.48 tokens/s
+Avg Carbon Emissions: 4.519e-07 kgCO2e"
+Samsung S26 Ultra,gemma3:1b,Code Generation,"
+Write a Python program that reads a text file, counts the frequency of each word, and displays the ten most common words in descending order. Include comments explaining the logic and provide an example of how the program can be executed.
+","        ```python def word_frequency(filepath):     """"""Reads a file, finds the top ten frequent words, and prints them.""""""      try:       with open(filepath, 'r') as f:         text = f.read()  # Read the entire content of the file into a singl single string                words = text.lower().split() # Convert to lowercase and split into in individual word characters                  word_frequency = {}             except FileNotFoundError:       print(f""Error: File '{filepath}' not found."")       return  # Exit if the file isn't located       for char in words: # Iterate through each character within the string         if 'a' <= char <= 'z':                 if char in word_frequency:               word_frequency[char] += 1             else:                  word_frequency[char] = 1      # Create a list of tuples from the word-counts dictionary     filtered_words = [(word, count) for word, count in word_frequency.items word_frequency.items() if len(word) > 2] #  Remove short words (length <= 2 2).          print(""Top 10 Most Common Words:"")     for word, count in sorted(filtered_word, key=lambda x: x[1], reverse=(T reverse=(True, False)): # Sort by counts       print(f""{word}: {count}"")       if __name__ == '__main__':     # Example usage - Create a dummy file for testing     test_file = ""example.txt""       with open(test_file, 'w') as f:         f.write(""This is a sample text file.\nIt contains some words to dem demonstrate word counting. Some of the words are repeated."")       word_frequency(test_file) ```  Key changes made and explanation: 1. **Clear Function Definition:** Encapsulating the logic within a well-def well-defined function `word_frequency` makes it reusable and easier to unde understand. 2. **File Reading Error Handling**: Includes  a 'try...except' block to cat catch `FileNotFoundError`. This is important because we need to handle case cases where the file doesn't exist. If there is an issue closing the file,  provides a specific error message informing user of the problem. 3. **Lowercase Conversion and Splitting:** The core step is converting all  text to lowercase (`text.lower()`)  and splitting it into words using space spaces (`text.split('])`). Now all `words` will have the same case as origi original text. Also, `text` now uses `text.lower().split()` 4. **Iterate on Characters**: The implementation iterates from character to to char through our string, instead of read through everything in a large c chunk which could affect efficiency (we do not need the full file content). content). 5.  **Filtering Short Words:** Filtering short words as minimum le length.   6. `sorted()` function - Using key lambda to sort with descending frequency frequency order when printing the results using the word frequency dictiona dictionary  7. **Clear Output Formatting**: The code now displays the top ten words and and counts concisely, making the output readable. 8. **Example Usage in `if __name__ == '__main__':` Block:** The example sho shows how to call the function with a dummy test file.  Crucially, it creat creates a sample text file so that you can run the program immediately with without having to create the sample text data manually. 9. `with open(...)`: This is the preferred method for opening and reading f files in Python because it automatically handles closing the file even if t there are errors during processing preventing resource leaks  Example Execution:  1.  **Run the Program:** Save the code above as a `.py` file (e.g., `word_c `word_counter.py`). then, run the script from your terminal using `python w word_counter.py`. 2. **Input File Specification**: Ensure you have your text in the specified specified `example.txt`. 3. **Output**: The program will output:     ```    Top 10 Most Common Words:    this: 4    is: 3    some: 3    a: 2    text: 3    file: 3    it: 2    contains: 2    words: 2    ```  This demonstrates that the program efficiently identified and ranked the mo most frequent words within the text file, providing clear output for demons demonstration.  Critically it displays in descending order. The program now now handles possible `FileNotFoundError` appropriately if the requested fil file isn't present.  ","total duration:       36.315195975s
+load duration:        521.172187ms
+prompt eval count:    56 token(s)
+prompt eval duration: 339.116ms
+prompt eval rate:     165.14 tokens/s
+eval count:           989 token(s)
+eval duration:        35.445205s
+eval rate:            27.90 tokens/s
+Carbon Emissions: 1.118e-06 kgCO2e","total duration:       52.298752167s
+load duration:        721.053801ms
+prompt eval count:    56 token(s)
+prompt eval duration: 111.672ms
+prompt eval rate:     501.47 tokens/s
+eval count:           1244 token(s)
+eval duration:        51.453625s
+eval rate:            24.18 tokens/s
+Carbon Emissions: 1.610e-06 kgCO2e","total duration:       57.130865134s
+load duration:        648.24526ms
+prompt eval count:    56 token(s)
+prompt eval duration: 142.144ms
+prompt eval rate:     393.97 tokens/s
+eval count:           1356 token(s)
+eval duration:        56.330061s
+eval rate:            24.07 tokens/s
+Carbon Emissions: 1.758e-06 kgCO2e","total duration:       39.483147954s
+load duration:        695.862344ms
+prompt eval count:    56 token(s)
+prompt eval duration: 105.203ms
+prompt eval rate:     532.30 tokens/s
+eval count:           926 token(s)
+eval duration:        38.671539s
+eval rate:            23.95 tokens/s
+Carbon Emissions: 1.216e-06 kgCO2e","Avg Total Duration: 49.638s
+Avg Load Duration: 0.688s
+Avg Prompt Eval Count: 56.00 token(s)
+Avg Prompt Eval Duration: 0.120s
+Avg Prompt Eval Rate: 475.91 tokens/s
+Avg Eval Count: 1175.33 token(s)
+Avg Eval Duration: 48.818s
+Avg Eval Rate: 24.07 tokens/s
+Avg Carbon Emissions: 1.528e-06 kgCO2e"

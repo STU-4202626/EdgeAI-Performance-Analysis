@@ -1,0 +1,5 @@
+Run,Device,Workload,Dataset,Model,Samples Evaluated,Repetitions,Target Measurement Time (s),Total Measurement Time (s),Accuracy,Precision,Recall,F1-Score,ROC-AUC,Inference Time (s),Throughput,Carbon Emissions (kgCO2e),MLPerf Target,Benchmark Status
+Warm-up,AMD Ryzen 7 6800H,Visual Wake Words,Visual Wake Words,vww_96.h5,1000,1,30.0,55.667,0.863,0.9353,0.78,0.8506,0.9437,55.667,17.96,8.551e-05,0.8,PASSED
+Run 1,AMD Ryzen 7 6800H,Visual Wake Words,Visual Wake Words,vww_96.h5,1000,1,30.0,54.424,0.863,0.9353,0.78,0.8506,0.9437,54.424,18.37,8.228e-05,0.8,PASSED
+Run 2,AMD Ryzen 7 6800H,Visual Wake Words,Visual Wake Words,vww_96.h5,1000,1,30.0,57.784,0.863,0.9353,0.78,0.8506,0.9437,57.784,17.31,8.862e-05,0.8,PASSED
+Run 3,AMD Ryzen 7 6800H,Visual Wake Words,Visual Wake Words,vww_96.h5,1000,1,30.0,59.334,0.863,0.9353,0.78,0.8506,0.9437,59.334,16.85,9.017e-05,0.8,PASSED

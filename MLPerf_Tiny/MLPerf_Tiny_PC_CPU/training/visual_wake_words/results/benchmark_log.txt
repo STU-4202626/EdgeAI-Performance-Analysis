@@ -1,0 +1,108 @@
+Dataset Information
+---------------------
+Dataset: Visual Wake Words
+Classes: ['non_person', 'person']
+Person images: 500
+Non-person images: 500
+Images Evaluated: 1000
+---------------------
+
+
+================ WARM-UP ================
+
+Benchmark Repetitions:    1
+Minimum Measurement Time: 30 seconds
+Total Measurement Time:   55.667 seconds
+Inference Time:           55.667 seconds
+Throughput:               17.96 images/second
+Carbon Emissions:         8.551e-05 kgCO2e
+Status:              Excluded from Average
+
+================ RUN 1 ================
+
+Benchmark Repetitions:    1
+Minimum Measurement Time: 30 seconds
+Total Measurement Time:   54.424 seconds
+Inference Time:           54.424 seconds
+Throughput:               18.37 images/second
+Carbon Emissions:         8.228e-05 kgCO2e
+Status:              Included in Average
+
+================ RUN 2 ================
+
+Benchmark Repetitions:    1
+Minimum Measurement Time: 30 seconds
+Total Measurement Time:   57.784 seconds
+Inference Time:           57.784 seconds
+Throughput:               17.31 images/second
+Carbon Emissions:         8.862e-05 kgCO2e
+Status:              Included in Average
+
+================ RUN 3 ================
+
+Benchmark Repetitions:    1
+Minimum Measurement Time: 30 seconds
+Total Measurement Time:   59.334 seconds
+Inference Time:           59.334 seconds
+Throughput:               16.85 images/second
+Carbon Emissions:         9.017e-05 kgCO2e
+Status:              Included in Average
+
+---------------------
+Performance on the Visual Wake Words Benchmark
+Accuracy: 0.8630
+MLPerf Target:       80%
+Benchmark Status:    PASSED
+---------------------
+Classification Report
+              precision    recall  f1-score   support
+
+  non_person       0.81      0.95      0.87       500
+      person       0.94      0.78      0.85       500
+
+    accuracy                           0.86      1000
+   macro avg       0.87      0.86      0.86      1000
+weighted avg       0.87      0.86      0.86      1000
+
+---------------------
+Emission Report
+Carbon Emissions:    9.017e-05 kgCO2e
+---------------------
+Confusion matrix saved to:
+results\confusion_matrix.png
+---------------------
+ROC curve saved to:
+results\roc_curve.png
+---------------------
+Prediction results saved to:
+results\visual_wake_words_predictions.csv
+---------------------
+
+Benchmark results saved to:
+results\visual_wake_words_benchmark_results.csv
+---------------------
+
+==========================================
+Benchmark completed successfully.
+==========================================
+Device: AMD Ryzen 7 6800H
+Workload: Visual Wake Words
+
+Warm-up Run: Completed
+Measured Runs: 3
+
+Raw Benchmark Data:
+visual_wake_words_benchmark_results.csv
+
+Prediction Results:
+visual_wake_words_predictions.csv
+
+Confusion Matrix:
+confusion_matrix.png
+
+ROC Curve:
+roc_curve.png
+
+The warm-up execution is excluded from the average.
+Run compile_results.py to calculate the averaged benchmark results.
+==========================================
