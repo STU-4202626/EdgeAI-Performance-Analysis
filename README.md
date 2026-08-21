@@ -44,15 +44,6 @@ Only one LLM model is used so that the comparison focuses on differences between
 
 The benchmark was designed around workload categories developed for this project after reviewing relevant research literature. It measures local inference performance as well as resource and environmental usage.
 
-The current LLM benchmark records:
-
-- Time to First Token (TTFT)
-- Tokens Per Second (TPS)
-- CPU usage
-- Memory usage
-- Energy consumption
-- Carbon emissions
-
 The benchmark is intended to provide a consistent way of comparing local LLM inference across the selected edge devices.
 
 > [!IMPORTANT]
