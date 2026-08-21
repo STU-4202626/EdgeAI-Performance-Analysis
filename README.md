@@ -2,7 +2,9 @@
 
 **How much AI can you actually run on the edge?**
 
+> [!IMPORTANT]
 > The aim is to see how different devices actually perform when AI is moved away from the cloud and onto the edge.
+
 
 EdgeAI is an Honours Computer Science project investigating how different edge devices handle AI workloads locally, from lightweight TinyML workloads to local large language model inference.
 
