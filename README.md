@@ -5,6 +5,11 @@
 > [!IMPORTANT]
 > The aim is to see how different devices actually perform when AI is moved away from the cloud and onto the edge.
 
+> [!WARNING]
+> This development branch contains post-benchmark corrections to the Android and Raspberry Pi 5 INT8 Keyword Spotting and Visual Wake Words scripts: input quantisation/clipping for Keyword Spotting and output probability handling for both workloads.
+> The four corrected implementations have not been benchmarked again. Existing CSV results are historical measurements, not results produced by these corrected implementations.
+> The [main branch](https://github.com/STU-4202626/EdgeAI-Performance-Analysis/tree/main) remains the completed, published Honours research baseline.
+
 
 EdgeAI is an Honours Computer Science project investigating how different edge devices handle AI workloads locally, from lightweight TinyML workloads to local large language model inference.
 
