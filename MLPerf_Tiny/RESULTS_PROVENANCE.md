@@ -75,3 +75,11 @@ CodeCarbon estimates use platform-specific power estimates and regional carbon i
 ## Retained Local Data
 
 The Android and Raspberry Pi exported KWS `benchmark_data/*.npy` arrays and the CPU VWW `results_new/` files were removed from the current Git index only. Their local files were retained. Earlier commits still contain those files; Git history was not rewritten.
+
+## CodeCarbon Geographical Metadata Cleanup
+
+The current public copies of the 19 historical CodeCarbon `emissions.csv` files (15 TinyML and four LLM files) have been privacy-reduced by removing only `latitude`, `longitude`, `country_name`, `country_iso_code`, `region` and `cloud_region`. They use the approved privacy-reduced copies from the standalone EdgeAI repositories.
+
+All 937 historical measurement rows and their ordering are preserved. Every retained CSV cell, including scientific measurements, numerical precision, timestamps, run identifiers and experiment identifiers, is unchanged. No benchmarks were rerun and no emissions or energy values were recalculated.
+
+This cleanup applies to the current CSV copies. Historical Git commits have not been cleaned or rewritten.
