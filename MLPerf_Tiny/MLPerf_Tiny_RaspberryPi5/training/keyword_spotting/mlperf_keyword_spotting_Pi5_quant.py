@@ -165,8 +165,12 @@ if __name__ == "__main__":
             axis=0
         )
 
-        input_data = np.round(
-            input_data / input_scale + input_zero_point
+        input_data = np.clip(
+            np.round(
+                input_data / input_scale + input_zero_point
+            ),
+            -128,
+            127
         ).astype(np.int8)
 
         benchmark_inputs.append({
@@ -220,22 +224,29 @@ if __name__ == "__main__":
 
                 interpreter.invoke()
 
+                # Retrieve the quantized Softmax output from the model.
                 output_data = interpreter.get_tensor(
                     output_details[0]["index"]
                 )
 
+                # Dequantize the INT8 Softmax output back to floating-point probabilities.
                 output_data = output_scale * (
                     output_data.astype(np.float32) - output_zero_point
                 )
 
-                # Convert the model output logits into probabilities.
-                output_data = np.exp(output_data)
-
-                output_data /= np.sum(
+                # Quantization can cause the probabilities to sum slightly above or below 1.0, so renormalize them without applying Softmax again.
+                output_sum = np.sum(
                     output_data,
                     axis=1,
                     keepdims=True
                 )
+
+                if np.any(output_sum <= 0):
+                    raise RuntimeError(
+                        "Invalid KWS output: probability sum is not positive."
+                    )
+
+                output_data = output_data / output_sum
 
                 predicted_class = np.argmax(output_data[0])
 

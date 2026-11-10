@@ -267,14 +267,20 @@ if __name__ == "__main__":
                     prediction.astype(np.float32) - output_zero_point
                 ) * output_scale
 
-                # Convert the logits into probabilities.
-                prediction = np.exp(prediction)
-
-                prediction /= np.sum(
+                # The quantized model already contains a Softmax output layer.
+                # Renormalize only to correct small probability-sum errors caused by INT8 quantization.
+                prediction_sum = np.sum(
                     prediction,
                     axis=1,
                     keepdims=True
                 )
+
+                if np.any(prediction_sum <= 0):
+                    raise RuntimeError(
+                        "Invalid VWW output: probability sum is not positive."
+                    )
+
+                prediction = prediction / prediction_sum
 
                 # Only collect predictions from the first repetition.
                 # This prevents the classification results from being duplicated.

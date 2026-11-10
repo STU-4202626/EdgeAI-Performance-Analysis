@@ -157,8 +157,12 @@ if __name__ == '__main__':
         input_data = np.expand_dims(features, axis=0)
 
         # Quantize the floating-point input using the model's quantization parameters
-        input_data = np.round(
-            input_data / input_scale + input_zero_point
+        input_data = np.clip(
+            np.round(
+                input_data / input_scale + input_zero_point
+            ),
+            -128,
+            127
         ).astype(np.int8)
 
         benchmark_inputs.append({
@@ -215,28 +219,34 @@ if __name__ == '__main__':
                 # Run inference
                 interpreter.invoke()
 
-                # Retrieve the prediction probabilities from the output tensor
+                # Retrieve the quantized Softmax output from the model.
                 output_data = interpreter.get_tensor(
                     output_details[0]["index"]
                 )
 
-                # Dequantize the model output back to floating-point logits
+                # Dequantize the INT8 Softmax output back to floating-point probabilities.
                 output_scale, output_zero_point = output_details[0]["quantization"]
 
                 output_data = output_scale * (
                     output_data.astype(np.float32) - output_zero_point
                 )
 
-                # Convert the model output logits into probabilities using a NumPy implementation of the Softmax function.
-                output_data = np.exp(output_data)
-
-                output_data /= np.sum(
+                # Quantization can cause the probabilities to sum slightly above
+                # or below 1.0, so renormalize them without applying Softmax again.
+                output_sum = np.sum(
                     output_data,
                     axis=1,
                     keepdims=True
                 )
 
-                # Determine the predicted speech command
+                if np.any(output_sum <= 0):
+                    raise RuntimeError(
+                        "Invalid KWS output: probability sum is not positive."
+                    )
+
+                output_data = output_data / output_sum
+
+                # Determine the predicted speech command.
                 predicted_class = np.argmax(output_data[0])
 
                 # Only collect predictions from the first repetition.
@@ -356,9 +366,9 @@ if __name__ == '__main__':
 
         # Indicate whether the current execution will be used when calculating the final benchmark averages.
         if run_label == "Warm-up":
-            print("Status:              Excluded from Average")
+            print("Status:             Excluded from Average")
         else:
-            print("Status:              Included in Average")
+            print("Status:             Included in Average")
 
     # Use the final benchmark execution for the remaining reports and visualisations.
     final_run = benchmark_runs[-1]
