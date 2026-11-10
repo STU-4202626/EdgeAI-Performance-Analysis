@@ -336,6 +336,8 @@ The following repositories contain individual benchmark implementations extracte
 - **[Visual Wake Words](https://github.com/STU-4202626/EdgeAI-Visual-Wake-Words)**: MobileNet V1 person/non-person classification using Visual Wake Words.
 - **[Local LLM Benchmarking](https://github.com/STU-4202626/EdgeAI-Local-LLM-Benchmarking)**: Local Gemma 3 1B inference benchmarking through Ollama.
 
+The completed Honours project is also available through the [CS-UWC Computer Science organisation](https://github.com/CS-UWC/EdgeAI-Performance-Analysis) at the University of the Western Cape. This is a separate, sanitised snapshot of the same research project.
+
 ## Author
 
 **STU-4202626**
