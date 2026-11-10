@@ -1,3 +1,7 @@
+# Modified for EdgeAI (2026): adapted the MLPerf Tiny evaluation into
+# a device-specific host benchmark with timing, metrics and result collection.
+# Original upstream attribution is retained below.
+
 '''
 MLCommons
 group: TinyMLPerf (https://github.com/mlcommons/tiny)

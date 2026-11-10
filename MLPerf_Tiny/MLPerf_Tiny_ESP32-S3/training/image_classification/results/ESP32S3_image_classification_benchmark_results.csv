@@ -1,0 +1,5 @@
+Run,Device,Workload,Dataset,Model,Samples Evaluated,Repetitions,Target Measurement Time (s),Total Measurement Time (s),Accuracy,Precision,Recall,F1-Score,ROC-AUC,Inference Time (s),Throughput,Carbon Emissions (kgCO2e),MLPerf Target,Benchmark Status
+Warm-up,ESP32-S3,Image Classification,CIFAR-10,pretrainedResnet_quant.tflite,200,2,30.0,35.572,0.875,0.8771,0.875,0.8732,0.9877,17.786,11.24,1.014e-06,0.85,PASSED
+Run 1,ESP32-S3,Image Classification,CIFAR-10,pretrainedResnet_quant.tflite,200,2,30.0,35.572,0.875,0.8771,0.875,0.8732,0.9877,17.786,11.24,1.014e-06,0.85,PASSED
+Run 2,ESP32-S3,Image Classification,CIFAR-10,pretrainedResnet_quant.tflite,200,2,30.0,35.572,0.875,0.8771,0.875,0.8732,0.9877,17.786,11.24,1.014e-06,0.85,PASSED
+Run 3,ESP32-S3,Image Classification,CIFAR-10,pretrainedResnet_quant.tflite,200,2,30.0,35.572,0.875,0.8771,0.875,0.8732,0.9877,17.786,11.24,1.014e-06,0.85,PASSED

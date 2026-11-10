@@ -1,3 +1,6 @@
+# Modified for EdgeAI (2026): historical adaptation of MLPerf Tiny
+# image-classification evaluation; retained as an existing reference copy.
+
 '''
 MLCommons
 group: TinyMLPerf (https://github.com/mlcommons/tiny)

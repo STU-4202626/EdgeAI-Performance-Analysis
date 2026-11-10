@@ -1,3 +1,6 @@
+# Modified for EdgeAI (2026): adapted model loading and classification evaluation.
+# Derived from MLCommons MLPerf Tiny; original attribution is retained below.
+
 '''
 MLCommons
 group: TinyMLPerf (https://github.com/mlcommons/tiny)

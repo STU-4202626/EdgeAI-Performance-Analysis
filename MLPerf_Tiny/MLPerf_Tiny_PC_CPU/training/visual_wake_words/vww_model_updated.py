@@ -1,3 +1,6 @@
+# Modified for EdgeAI (2026): adapted the upstream MobileNet V1 model definition.
+# Derived from MLCommons MLPerf Tiny; original attribution is retained below.
+
 '''
 MobilnetV1 from Silican Labs github page:
 https://github.com/SiliconLabs/platform_ml_models/blob/master/eembc/Person_detection/mobilenet_v1_eembc.py

@@ -9,6 +9,7 @@ import pandas as pd
 #   python compile_results.py MLPerf_Tiny_PC_GPU
 #   python compile_results.py MLPerf_Tiny_RaspberryPi5
 #   python compile_results.py MLPerf_Tiny_Android
+#   python compile_results.py MLPerf_Tiny_ESP32-S3
 
 if len(sys.argv) != 2:
     print("Usage:")
@@ -47,9 +48,9 @@ DEVICE_PREFIXES = {
     "MLPerf_Tiny_PC_CPU": "CPU",
     "MLPerf_Tiny_PC_GPU": "GPU",
     "MLPerf_Tiny_RaspberryPi5": "Pi5",
-    "MLPerf_Tiny_Android": "Android"
+    "MLPerf_Tiny_Android": "Android",
+    "MLPerf_Tiny_ESP32-S3": "ESP32S3"
 }
-
 
 if DEVICE not in DEVICE_PREFIXES:
     print(f"\nERROR: No filename prefix configured for: {DEVICE}")
@@ -71,7 +72,10 @@ SUMMARY_FILENAMES = {
         "mlperf_tiny_RaspberryPi5_summary.csv",
 
     "MLPerf_Tiny_Android":
-        "mlperf_tiny_Android_summary.csv"
+        "mlperf_tiny_Android_summary.csv",
+
+    "MLPerf_Tiny_ESP32-S3":
+        "mlperf_tiny_ESP32S3_summary.csv"
 }
 
 

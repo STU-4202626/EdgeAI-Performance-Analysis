@@ -1,0 +1,4 @@
+Device,Workload,Dataset,Model,Samples Evaluated,Repetitions,Target Measurement Time (s),Total Measurement Time (s),Accuracy,Precision,Recall,F1-Score,ROC-AUC,Inference Time (s),Throughput,Carbon Emissions (kgCO2e),MLPerf Target,Benchmark Status
+ESP32-S3,Image Classification,CIFAR-10,pretrainedResnet_quant.tflite,200,2.0,30.0,35.572,0.875,0.8771,0.875,0.8732,0.9877,17.786,11.24,1.014e-06,0.85,PASSED
+ESP32-S3,Keyword Spotting,Speech Commands v0.02,kws_ref_model.tflite,1000,2.0,30.0,39.645,0.912,0.9313,0.912,0.9167,0.9955,19.823,50.45,1.130e-06,0.9,PASSED
+ESP32-S3,Visual Wake Words,Visual Wake Words,vww_96_int8.tflite,1000,1.0,30.0,77.249,0.858,0.9345,0.77,0.8443,0.9429,77.249,12.95,4.405e-06,0.8,PASSED

@@ -1,3 +1,6 @@
+# Modified for EdgeAI (2026): adapted dataset and working-directory defaults.
+# Derived from MLCommons MLPerf Tiny; original attribution is retained below.
+
 import os
 import argparse
 import matplotlib.pyplot as plt

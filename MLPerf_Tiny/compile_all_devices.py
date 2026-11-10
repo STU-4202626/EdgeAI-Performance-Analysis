@@ -19,7 +19,10 @@ DEVICE_SUMMARIES = {
         "mlperf_tiny_RaspberryPi5_summary.csv",
 
     "MLPerf_Tiny_Android":
-        "mlperf_tiny_Android_summary.csv"
+        "mlperf_tiny_Android_summary.csv",
+
+    "MLPerf_Tiny_ESP32-S3":
+        "mlperf_tiny_ESP32S3_summary.csv"
 }
 
 device_results = []
@@ -61,8 +64,7 @@ for folder, summary_file in DEVICE_SUMMARIES.items():
 
         continue
 
-    # The device summary contains an Average row.
-    # We only want the individual benchmark results here.
+    # Ignore any legacy Average rows that may exist in older summary files.
     df = df[df["Device"] != "Average"].copy()
 
     print(
@@ -139,7 +141,7 @@ print("=" * 70)
 
 print(f"Devices combined: {len(device_results)}")
 
-print(f"Benchmark results: {len(summary) - 1}")
+print(f"Benchmark results: {len(summary)}")
 
 print(f"Output file: {output_file}")
 

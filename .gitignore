@@ -47,3 +47,51 @@ LLM/**/og_android/
 LLM/**/og_csv/
 LLM/**/og_gpu/
 LLM/**/og_pi/
+
+# Local copies, abandoned ESP32 LLM attempt, and compressed uploads
+/Previous/
+/LLM/LLM_Bench_ESP32-S3/
+*.rar
+*.zip
+
+# Downloaded benchmark datasets and archives (retain dataset loaders/scripts)
+cifar-10-python/
+benchmark_data/
+*.tar.gz
+
+# ESP-IDF generated output and automatically restored dependencies
+managed_components/
+sdkconfig.old
+# Keep sdkconfig.defaults, dependencies.lock, manifests, and partitions.csv.
+# The active sdkconfig is machine/generated state restored from sdkconfig.defaults.
+/MLPerf_Tiny/MLPerf_Tiny_ESP32-S3/training/*/firmware/sdkconfig
+
+# Analysis workbooks and Microsoft Office temporary files (publish final CSVs)
+*.xlsx
+~$*
+/LLM/Graphs/
+/MLPerf_Tiny/Graphs/
+
+# Duplicate/backup code and experimental results
+og.py
+*_og.py
+*_backup.cc
+results_new/
+/MLPerf_Tiny/mlperf_tiny_all_devices_summary_og.csv
+
+# Local file inventory, not part of the project
+/repository_structure.txt
+/EdgeAI_Local_File_Structure.txt
+/EdgeAI_Git_Audit.txt
+
+# ESP32-S3: keep only the three deployed INT8 model files in trained_models.
+# Firmware main/model.cc stays tracked, as it embeds the model bytes.
+/MLPerf_Tiny/MLPerf_Tiny_ESP32-S3/training/image_classification/trained_models/*
+!/MLPerf_Tiny/MLPerf_Tiny_ESP32-S3/training/image_classification/trained_models/pretrainedResnet_quant.tflite
+/MLPerf_Tiny/MLPerf_Tiny_ESP32-S3/training/keyword_spotting/trained_models/*
+!/MLPerf_Tiny/MLPerf_Tiny_ESP32-S3/training/keyword_spotting/trained_models/kws_ref_model.tflite
+/MLPerf_Tiny/MLPerf_Tiny_ESP32-S3/training/visual_wake_words/trained_models/*
+!/MLPerf_Tiny/MLPerf_Tiny_ESP32-S3/training/visual_wake_words/trained_models/vww_96_int8.tflite
+
+# ESP32-S3 diagnostic logs can be regenerated; retain CSV results and figures.
+/MLPerf_Tiny/MLPerf_Tiny_ESP32-S3/training/*/results/benchmark_log.txt
