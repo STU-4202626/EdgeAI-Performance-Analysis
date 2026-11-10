@@ -23,11 +23,16 @@ The MLPerf Tiny part of the project uses workloads from the **MLPerf Tiny benchm
 
 The completed implementation covers:
 
-| Workload | Dataset | Model |
-|---|---|---|
-| Image Classification | CIFAR-10 | ResNet8 |
-| Keyword Spotting | Speech Commands v0.02 | DS-CNN |
-| Visual Wake Words | Visual Wake Words | MobileNet V1 |
+<table align="center">
+  <thead>
+    <tr><th>Workload</th><th>Dataset</th><th>Model</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Image Classification</td><td>CIFAR-10</td><td>ResNet8</td></tr>
+    <tr><td>Keyword Spotting</td><td>Speech Commands v0.02</td><td>DS-CNN</td></tr>
+    <tr><td>Visual Wake Words</td><td>Visual Wake Words</td><td>MobileNet V1</td></tr>
+  </tbody>
+</table>
 
 The evaluation uses **200 CIFAR-10 images**, **1,000 Speech Commands samples**, and **1,000 Visual Wake Words images** (500 person and 500 non-person).
 
@@ -40,14 +45,19 @@ The workloads were evaluated across **five platforms and six deployment configur
 
 The ESP32-S3 benchmarking was completed this term. Unlike the other platforms, the ESP32-S3 uses **Python host scripts together with firmware running on the microcontroller**. A separate firmware project was developed for each MLPerf Tiny workload.
 
-| Component | Configuration |
-|---|---|
-| Board | Waveshare ESP32-S3, 16 MB flash and 8 MB Octal PSRAM |
-| Processor | Dual-core Xtensa LX7, 240 MHz |
-| Firmware framework | ESP-IDF 6.0.3 |
-| Espressif inference components | `esp-tflite-micro` 1.4.0 (TensorFlow Lite Micro) and `esp-nn` 1.3.2 |
-| Models | INT8-quantised ResNet8, DS-CNN and MobileNet V1 |
-| Serial connection | 921600 baud |
+<table align="center">
+  <thead>
+    <tr><th>Component</th><th>Configuration</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Board</td><td>Waveshare ESP32-S3, 16 MB flash and 8 MB Octal PSRAM</td></tr>
+    <tr><td>Processor</td><td>Dual-core Xtensa LX7, 240 MHz</td></tr>
+    <tr><td>Firmware framework</td><td>ESP-IDF 6.0.3</td></tr>
+    <tr><td>Espressif inference components</td><td><code>esp-tflite-micro</code> 1.4.0 (TensorFlow Lite Micro) and <code>esp-nn</code> 1.3.2</td></tr>
+    <tr><td>Models</td><td>INT8-quantised ResNet8, DS-CNN and MobileNet V1</td></tr>
+    <tr><td>Serial connection</td><td>921600 baud</td></tr>
+  </tbody>
+</table>
 
 The host prepares the dataset samples and sends **INT8 input tensors** over serial. The ESP32-S3 performs inference using TensorFlow Lite Micro, with the model embedded in flash and the tensor arena allocated in external PSRAM. The arena size depends on the workload: Image Classification and Keyword Spotting each reserve 128 KiB, while Visual Wake Words reserves 1 MiB. The device returns the quantised model output and device-side inference time. The host then calculates the classification measurements and saves the results.
 
@@ -77,13 +87,18 @@ The benchmark evaluates **Knowledge Retrieval, Summarisation, Logical Reasoning,
 
 The benchmarks were completed across devices with substantially different levels of computing capability.
 
-| Device | Type |
-|---|---|
-| AMD Ryzen 7 6800H | x86 CPU |
-| NVIDIA GeForce RTX 4090 | Dedicated GPU |
-| Raspberry Pi 5 | ARM edge computer |
-| Samsung Galaxy S26 Ultra | Android smartphone |
-| ESP32-S3 | Microcontroller |
+<table align="center">
+  <thead>
+    <tr><th>Device</th><th>Type</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>AMD Ryzen 7 6800H</td><td>x86 CPU</td></tr>
+    <tr><td>NVIDIA GeForce RTX 4090</td><td>Dedicated GPU</td></tr>
+    <tr><td>Raspberry Pi 5</td><td>ARM edge computer</td></tr>
+    <tr><td>Samsung Galaxy S26 Ultra</td><td>Android smartphone</td></tr>
+    <tr><td>ESP32-S3</td><td>Microcontroller</td></tr>
+  </tbody>
+</table>
 
 The ESP32-S3, Raspberry Pi 5 and Galaxy S26 Ultra are the three edge platforms. The Ryzen 7 6800H and RTX 4090 serve as higher-performance references; the RTX 4090 evaluation was conducted on RunPod.
 
@@ -166,11 +181,16 @@ Large benchmark datasets and generated ESP-IDF dependencies are excluded from th
 
 The MLPerf Tiny workloads require:
 
-| Dataset | Used for | Source |
-|---|---|---|
-| **CIFAR-10** | Image Classification | [University of Toronto - CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) |
-| **Speech Commands v0.02** | Keyword Spotting | [TensorFlow - Speech Commands](https://www.tensorflow.org/datasets/catalog/speech_commands) |
-| **Visual Wake Words** | Visual Wake Words | [MLCommons - MLPerf Tiny](https://github.com/mlcommons/tiny) |
+<table align="center">
+  <thead>
+    <tr><th>Dataset</th><th>Used for</th><th>Source</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>CIFAR-10</strong></td><td>Image Classification</td><td><a href="https://www.cs.toronto.edu/~kriz/cifar.html">University of Toronto - CIFAR-10</a></td></tr>
+    <tr><td><strong>Speech Commands v0.02</strong></td><td>Keyword Spotting</td><td><a href="https://www.tensorflow.org/datasets/catalog/speech_commands">TensorFlow - Speech Commands</a></td></tr>
+    <tr><td><strong>Visual Wake Words</strong></td><td>Visual Wake Words</td><td><a href="https://github.com/mlcommons/tiny">MLCommons - MLPerf Tiny</a></td></tr>
+  </tbody>
+</table>
 
 
 The benchmark directories contain the scripts and configuration required to work with these datasets.
@@ -222,11 +242,16 @@ The repository also contains individual benchmark result CSVs, predictions and s
 
 The ESP32-S3 completed all three MLPerf Tiny workloads using INT8 models:
 
-| Workload | Accuracy | Required accuracy | Throughput |
-|---|---:|---:|---:|
-| Image Classification | 87.5% | 85% | 11.24 images/s |
-| Keyword Spotting | 91.2% | 90% | 50.45 samples/s |
-| Visual Wake Words | 85.8% | 80% | 12.95 images/s |
+<table align="center">
+  <thead>
+    <tr><th>Workload</th><th align="right">Accuracy</th><th align="right">Required accuracy</th><th align="right">Throughput</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Image Classification</td><td align="right">87.5%</td><td align="right">85%</td><td align="right">11.24 images/s</td></tr>
+    <tr><td>Keyword Spotting</td><td align="right">91.2%</td><td align="right">90%</td><td align="right">50.45 samples/s</td></tr>
+    <tr><td>Visual Wake Words</td><td align="right">85.8%</td><td align="right">80%</td><td align="right">12.95 images/s</td></tr>
+  </tbody>
+</table>
 
 > [!IMPORTANT]
 > **All three ESP32-S3 workloads met their MLPerf Tiny accuracy targets.** The results demonstrate that these lightweight models can run on the microcontroller, even though its inference throughput is lower than on the more capable INT8 platforms.
