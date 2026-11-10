@@ -327,6 +327,15 @@ The complete, unchanged [MLPerf Tiny Apache 2.0 licence](MLPerf_Tiny/LICENSE.md)
 - [ ] Final presentation and demonstration recordings
 - [ ] Final project website and repository publishing
 
+## Related Repositories
+
+The following repositories contain individual benchmark implementations extracted from this completed EdgeAI Honours project. They are components of the same research project, rather than four independent studies.
+
+- **[Image Classification](https://github.com/STU-4202626/EdgeAI-Image-Classification)**: ResNet8 image classification using CIFAR-10.
+- **[Keyword Spotting](https://github.com/STU-4202626/EdgeAI-Keyword-Spotting)**: DS-CNN keyword recognition using Speech Commands v0.02.
+- **[Visual Wake Words](https://github.com/STU-4202626/EdgeAI-Visual-Wake-Words)**: MobileNet V1 person/non-person classification using Visual Wake Words.
+- **[Local LLM Benchmarking](https://github.com/STU-4202626/EdgeAI-Local-LLM-Benchmarking)**: Local Gemma 3 1B inference benchmarking through Ollama.
+
 ## Author
 
 **STU-4202626**
